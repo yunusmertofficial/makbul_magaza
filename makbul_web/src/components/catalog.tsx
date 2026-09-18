@@ -316,12 +316,17 @@ export default function Catalog({ products }: CatalogProps) {
         </section>
       </main>
 
+      <div className="owner-banner" role="note" aria-label="Site sahiplik bilgisi">
+        <span aria-hidden="true">✓</span>
+        <p>Bu site <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
+      </div>
+
       <footer>
         <div className="footer-brand">
           <Image src="/logo.png" alt="" width={38} height={38} />
           <span><strong>Makbul Mağazası</strong><small>Ürün kataloğu</small></span>
         </div>
-        <p>Bu katalog bilgilendirme amacıyla hazırlanmıştır.</p>
+        <p>Ürün kataloğu · Tüm hakları saklıdır.</p>
         <a href="#top">Yukarı dön ↑</a>
       </footer>
     </div>

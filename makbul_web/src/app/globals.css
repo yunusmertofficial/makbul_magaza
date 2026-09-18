@@ -946,6 +946,41 @@ a {
   color: var(--muted);
 }
 
+.owner-banner {
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto 16px;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgba(18, 93, 59, 0.15);
+  border-radius: 18px;
+  background: #eaf3e5;
+  color: var(--green-dark);
+}
+
+.owner-banner > span {
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--mint-bright);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.owner-banner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.owner-banner strong {
+  font-weight: 800;
+}
+
 footer {
   width: min(1200px, calc(100% - 48px));
   margin: 0 auto 30px;
@@ -1004,6 +1039,7 @@ footer > a {
   .site-header,
   .hero,
   .catalog,
+  .owner-banner,
   footer {
     width: min(100% - 28px, 1200px);
   }
@@ -1183,6 +1219,16 @@ footer > a {
     padding: 22px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .owner-banner {
+    margin-bottom: 10px;
+    padding: 14px 16px;
+    border-radius: 16px;
+  }
+
+  .owner-banner p {
+    font-size: 13px;
   }
 
   footer p {

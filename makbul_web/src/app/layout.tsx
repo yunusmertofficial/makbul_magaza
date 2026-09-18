@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Makbul Mağazası ürünlerini isim, ürün kodu ve kategoriye göre kolayca keşfedin.",
   icons: {
-    icon: "/app-icon.svg",
+    icon: "/logo.png",
     apple: "/logo.png",
   },
   appleWebApp: {
