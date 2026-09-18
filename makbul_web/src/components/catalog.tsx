@@ -127,7 +127,7 @@ export default function Catalog({ products }: CatalogProps) {
 
       <div className="owner-banner" role="note" aria-label="Site sahiplik bilgisi">
         <span aria-hidden="true">✓</span>
-        <p>Bu site <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
+        <p>Bu uygulama <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
       </div>
 
       <main id="top">
