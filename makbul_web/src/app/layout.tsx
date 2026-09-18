@@ -34,10 +34,22 @@ export const viewport: Viewport = {
   themeColor: "#125d3b",
 };
 
+const installPromptCapture = `
+  window.__makbulInstallPrompt = null;
+  window.addEventListener("beforeinstallprompt", function (event) {
+    event.preventDefault();
+    window.__makbulInstallPrompt = event;
+    window.dispatchEvent(new Event("makbul-install-ready"));
+  });
+`;
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="tr" className={`${outfit.variable} ${robotoMono.variable}`}>
-      <body>{children}</body>
+      <body>
+        <script dangerouslySetInnerHTML={{ __html: installPromptCapture }} />
+        {children}
+      </body>
     </html>
   );
 }

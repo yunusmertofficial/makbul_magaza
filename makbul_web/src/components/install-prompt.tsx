@@ -13,57 +13,51 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<InstallChoice>;
 }
 
+declare global {
+  interface Window {
+    __makbulInstallPrompt?: BeforeInstallPromptEvent | null;
+  }
+}
+
 export default function InstallPrompt() {
-  const [visible, setVisible] = useState(true);
-  const [isIOS, setIsIOS] = useState(false);
+  const [visible, setVisible] = useState(false);
   const [deferredPrompt, setDeferredPrompt] =
     useState<BeforeInstallPromptEvent | null>(null);
-  const [showHelp, setShowHelp] = useState(false);
 
   useEffect(() => {
-    const standalone =
-      window.matchMedia("(display-mode: standalone)").matches ||
-      ("standalone" in navigator && Boolean((navigator as Navigator & { standalone?: boolean }).standalone));
-    const ios = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const standalone = window.matchMedia("(display-mode: standalone)").matches;
+    if (standalone) return;
 
-    const frame = window.requestAnimationFrame(() => {
-      setIsIOS(ios);
-      setVisible(!standalone);
-    });
-
-    const capturePrompt = (event: Event) => {
-      event.preventDefault();
-      setDeferredPrompt(event as BeforeInstallPromptEvent);
+    const showInstall = () => {
+      const prompt = window.__makbulInstallPrompt;
+      if (!prompt) return;
+      setDeferredPrompt(prompt);
+      setVisible(true);
     };
     const hideAfterInstall = () => setVisible(false);
+    const frame = window.requestAnimationFrame(showInstall);
 
-    window.addEventListener("beforeinstallprompt", capturePrompt);
+    window.addEventListener("makbul-install-ready", showInstall);
     window.addEventListener("appinstalled", hideAfterInstall);
 
     return () => {
       window.cancelAnimationFrame(frame);
-      window.removeEventListener("beforeinstallprompt", capturePrompt);
+      window.removeEventListener("makbul-install-ready", showInstall);
       window.removeEventListener("appinstalled", hideAfterInstall);
     };
   }, []);
 
   const install = async () => {
-    if (!deferredPrompt) {
-      setShowHelp(true);
-      return;
-    }
+    if (!deferredPrompt) return;
 
     await deferredPrompt.prompt();
-    const choice = await deferredPrompt.userChoice;
+    await deferredPrompt.userChoice;
+    window.__makbulInstallPrompt = null;
     setDeferredPrompt(null);
-    if (choice.outcome === "accepted") {
-      setVisible(false);
-    } else {
-      setShowHelp(true);
-    }
+    setVisible(false);
   };
 
-  if (!visible) return null;
+  if (!visible || !deferredPrompt) return null;
 
   return (
     <div className="install-overlay" role="dialog" aria-modal="true" aria-labelledby="install-title">
@@ -72,36 +66,18 @@ export default function InstallPrompt() {
           ×
         </button>
         <div className="install-logo">
-          <Image src="/logo.png" alt="" width={70} height={70} priority />
+          <Image src="/logo-192.png" alt="" width={70} height={70} priority />
         </div>
         <div className="install-copy">
-          <span className="install-kicker">Hızlı erişim</span>
-          <h2 id="install-title">Makbul&apos;ü ana ekranına ekle</h2>
-          <p>Ürün aramaya uygulama gibi, tek dokunuşla ulaş.</p>
+          <span className="install-kicker">Uygulama hazır</span>
+          <h2 id="install-title">Makbul Mağazası&apos;nı yükle</h2>
+          <p>Butona dokunduğunda tarayıcının güvenli yükleme penceresi açılacak.</p>
         </div>
 
-        {showHelp && (
-          <div className="install-help">
-            {isIOS ? (
-              <p>Safari&apos;de alttaki <strong>Paylaş</strong> simgesine dokun, ardından <strong>Ana Ekrana Ekle</strong> seçeneğini seç.</p>
-            ) : (
-              <p>Tarayıcı menüsünü açıp <strong>Ana ekrana ekle</strong> veya <strong>Uygulamayı yükle</strong> seçeneğine dokun.</p>
-            )}
-          </div>
-        )}
-
-        <div className="install-actions">
+        <div className="install-actions install-actions-ready">
           <button className="install-later" type="button" onClick={() => setVisible(false)}>Şimdi değil</button>
-          <button
-            className="install-primary"
-            type="button"
-            onClick={showHelp ? () => setVisible(false) : install}
-          >
-            {showHelp ? (
-              "Tamam"
-            ) : (
-              <><span aria-hidden="true">＋</span>{isIOS ? "Nasıl eklenir?" : "Ana ekrana ekle"}</>
-            )}
+          <button className="install-primary" type="button" onClick={install}>
+            <span aria-hidden="true">↓</span> Yükle
           </button>
         </div>
       </div>
