@@ -948,8 +948,8 @@ a {
 
 .owner-banner {
   width: min(1200px, calc(100% - 48px));
-  margin: 0 auto 16px;
-  padding: 16px 22px;
+  margin: 0 auto 12px;
+  padding: 11px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1223,7 +1223,7 @@ footer > a {
 
   .owner-banner {
     margin-bottom: 10px;
-    padding: 14px 16px;
+    padding: 10px 14px;
     border-radius: 16px;
   }
 

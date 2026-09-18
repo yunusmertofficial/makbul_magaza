@@ -125,6 +125,11 @@ export default function Catalog({ products }: CatalogProps) {
         </a>
       </header>
 
+      <div className="owner-banner" role="note" aria-label="Site sahiplik bilgisi">
+        <span aria-hidden="true">✓</span>
+        <p>Bu site <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
+      </div>
+
       <main id="top">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero-glow hero-glow-one" />
@@ -315,11 +320,6 @@ export default function Catalog({ products }: CatalogProps) {
           )}
         </section>
       </main>
-
-      <div className="owner-banner" role="note" aria-label="Site sahiplik bilgisi">
-        <span aria-hidden="true">✓</span>
-        <p>Bu site <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
-      </div>
 
       <footer>
         <div className="footer-brand">
