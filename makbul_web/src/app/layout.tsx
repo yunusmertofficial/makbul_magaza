@@ -17,13 +17,16 @@ export const metadata: Metadata = {
   description:
     "Makbul Mağazası ürünlerini isim, ürün kodu ve kategoriye göre kolayca keşfedin.",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: [
+      { url: "/logo-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/logo-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/logo-180.png",
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Makbul",
+    title: "Makbul Mağazası",
   },
 };
 

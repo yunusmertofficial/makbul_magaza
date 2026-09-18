@@ -56,7 +56,11 @@ export default function InstallPrompt() {
     await deferredPrompt.prompt();
     const choice = await deferredPrompt.userChoice;
     setDeferredPrompt(null);
-    if (choice.outcome === "accepted") setVisible(false);
+    if (choice.outcome === "accepted") {
+      setVisible(false);
+    } else {
+      setShowHelp(true);
+    }
   };
 
   if (!visible) return null;
@@ -88,8 +92,16 @@ export default function InstallPrompt() {
 
         <div className="install-actions">
           <button className="install-later" type="button" onClick={() => setVisible(false)}>Şimdi değil</button>
-          <button className="install-primary" type="button" onClick={install}>
-            <span aria-hidden="true">＋</span> Ana ekrana ekle
+          <button
+            className="install-primary"
+            type="button"
+            onClick={showHelp ? () => setVisible(false) : install}
+          >
+            {showHelp ? (
+              "Tamam"
+            ) : (
+              <><span aria-hidden="true">＋</span>{isIOS ? "Nasıl eklenir?" : "Ana ekrana ekle"}</>
+            )}
           </button>
         </div>
       </div>
