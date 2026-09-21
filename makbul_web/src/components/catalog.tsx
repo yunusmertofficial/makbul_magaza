@@ -264,6 +264,45 @@ export default function Catalog({ products }: CatalogProps) {
         </section>
 
         <section className="catalog" id="urunler" aria-labelledby="catalog-title">
+          <div className="mobile-catalog-tools" aria-label="Mobil katalog araçları">
+            <label className="mobile-sticky-search">
+              <span className="search-icon"><SearchIcon /></span>
+              <span className="sr-only">Ürün ara</span>
+              <input
+                type="search"
+                value={query}
+                onChange={(event) => updateQuery(event.target.value)}
+                placeholder="Ürün adı veya kodu ile ara..."
+                autoComplete="off"
+              />
+              {query && (
+                <button type="button" onClick={() => updateQuery("")} aria-label="Aramayı temizle">
+                  ×
+                </button>
+              )}
+            </label>
+
+            <div className="mobile-category-list" aria-label="Ürün kategorileri">
+              <button
+                type="button"
+                className={selectedCategory === "Tümü" ? "active" : ""}
+                onClick={() => updateCategory("Tümü")}
+              >
+                Tümü <span>{products.length}</span>
+              </button>
+              {categories.map(([category, count]) => (
+                <button
+                  type="button"
+                  className={selectedCategory === category ? "active" : ""}
+                  onClick={() => updateCategory(category)}
+                  key={category}
+                >
+                  {category} <span>{count}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
           <div className="section-heading">
             <div>
               <p className="eyebrow"><span /> Katalog</p>
