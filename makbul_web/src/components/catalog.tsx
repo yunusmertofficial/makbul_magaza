@@ -126,8 +126,15 @@ export default function Catalog({ products }: CatalogProps) {
       </header>
 
       <div className="owner-banner" role="note" aria-label="Site sahiplik bilgisi">
-        <span aria-hidden="true">✓</span>
-        <p>Bu uygulama <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
+        <span className="owner-banner-icon" aria-hidden="true">✓</span>
+        <div className="owner-banner-content">
+          <p>Bu uygulama <strong>Yuşa Emin Mert&apos;e</strong> aittir.</p>
+          <span className="owner-banner-divider" aria-hidden="true" />
+          <p className="owner-manager">
+            <span>Bölge Yöneticisi</span>
+            <strong>Ümit Terzi</strong>
+          </p>
+        </div>
       </div>
 
       <main id="top">
