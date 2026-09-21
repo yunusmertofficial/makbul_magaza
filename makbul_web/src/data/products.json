@@ -301,6 +301,20 @@
     "imageUrl": "/products/big-tirtil-cips-kg464.webp"
   },
   {
+    "id": "213",
+    "code": "2134",
+    "name": "Cips Piramit Süt Mısırı",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/piramit.webp"
+  },
+  {
+    "id": "214",
+    "code": "2135",
+    "name": "Cips Makarna Ketçap",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-ketcap-aromali-makarna-cipsi.jpg"
+  },
+  {
     "id": "62",
     "code": "2022",
     "name": "Fındık İçi Çiğ",
@@ -1013,6 +1027,27 @@
     "name": "Lokum Fıstıklı Duble",
     "category": "Lokum",
     "imageUrl": "/products/big-duble-fistikli-lokum-kg513.webp"
+  },
+  {
+    "id": "210",
+    "code": "3061",
+    "name": "Lokum Kat Kat Böğürtlenli",
+    "category": "Lokum",
+    "imageUrl": "/products/middle-lokum-kat-kat-bogurtlenli397.jpg"
+  },
+  {
+    "id": "211",
+    "code": "3061",
+    "name": "Lokum Kat Kat Çilekli",
+    "category": "Lokum",
+    "imageUrl": "/products/middle-lokum-kat-kat-cilekli.jpg"
+  },
+  {
+    "id": "212",
+    "code": "3061",
+    "name": "Lokum Kat Kat Karamelize",
+    "category": "Lokum",
+    "imageUrl": "/products/big-lokum-kat-kat-karamelize207.jpg"
   },
   {
     "id": "169",
