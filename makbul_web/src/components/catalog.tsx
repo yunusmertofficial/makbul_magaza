@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import InstallPrompt from "@/components/install-prompt";
 
 type Product = {
@@ -51,6 +51,8 @@ export default function Catalog({ products }: CatalogProps) {
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const [searchFocused, setSearchFocused] = useState(false);
   const [previewProduct, setPreviewProduct] = useState<Product | null>(null);
+  const [showMobileTools, setShowMobileTools] = useState(false);
+  const heroSearchRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!previewProduct) return;
@@ -68,6 +70,31 @@ export default function Catalog({ products }: CatalogProps) {
       document.removeEventListener("keydown", closePreview);
     };
   }, [previewProduct]);
+
+  useEffect(() => {
+    const heroSearch = heroSearchRef.current;
+    if (!heroSearch) return;
+
+    const mobileViewport = window.matchMedia("(max-width: 760px)");
+    const updateVisibility = () => {
+      const searchBounds = heroSearch.getBoundingClientRect();
+      setShowMobileTools(mobileViewport.matches && searchBounds.bottom <= 0);
+    };
+    const observer = new IntersectionObserver(([entry]) => {
+      setShowMobileTools(
+        mobileViewport.matches && !entry.isIntersecting && entry.boundingClientRect.bottom <= 0,
+      );
+    });
+
+    observer.observe(heroSearch);
+    mobileViewport.addEventListener("change", updateVisibility);
+    updateVisibility();
+
+    return () => {
+      observer.disconnect();
+      mobileViewport.removeEventListener("change", updateVisibility);
+    };
+  }, []);
 
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
@@ -171,7 +198,7 @@ export default function Catalog({ products }: CatalogProps) {
               lezzetlerine tek ekrandan ulaş.
             </p>
 
-            <div className="search-wrap">
+            <div className="search-wrap" ref={heroSearchRef}>
               <label className="search-box">
                 <span className="search-icon"><SearchIcon /></span>
                 <span className="sr-only">Ürün ara</span>
@@ -264,7 +291,10 @@ export default function Catalog({ products }: CatalogProps) {
         </section>
 
         <section className="catalog" id="urunler" aria-labelledby="catalog-title">
-          <div className="mobile-catalog-tools" aria-label="Mobil katalog araçları">
+          <div
+            className={`mobile-catalog-tools${showMobileTools ? " is-visible" : ""}`}
+            aria-label="Mobil katalog araçları"
+          >
             <label className="mobile-sticky-search">
               <span className="search-icon"><SearchIcon /></span>
               <span className="sr-only">Ürün ara</span>
