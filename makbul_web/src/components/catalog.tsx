@@ -17,6 +17,11 @@ type CatalogProps = {
 };
 
 const PAGE_SIZE = 24;
+const NEW_PRODUCT_IDS = new Set(["209", "210", "211", "212", "213", "214", "215", "216"]);
+
+function isNewProduct(product: Product) {
+  return NEW_PRODUCT_IDS.has(product.id);
+}
 
 function normalizeSearch(value: string) {
   return value
@@ -96,6 +101,28 @@ export default function Catalog({ products }: CatalogProps) {
     };
   }, []);
 
+  useEffect(() => {
+    const cards = document.querySelectorAll<HTMLElement>(".reveal-card:not(.is-revealed)");
+    if (!("IntersectionObserver" in window)) {
+      cards.forEach((card) => card.classList.add("is-revealed"));
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-revealed");
+          observer.unobserve(entry.target);
+        });
+      },
+      { rootMargin: "0px 0px -6%", threshold: 0.08 },
+    );
+
+    cards.forEach((card) => observer.observe(card));
+    return () => observer.disconnect();
+  }, [query, selectedCategory, visibleCount]);
+
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
     for (const product of products) {
@@ -116,6 +143,13 @@ export default function Catalog({ products }: CatalogProps) {
   }, [products, query, selectedCategory]);
 
   const visibleProducts = filteredProducts.slice(0, visibleCount);
+  const newProducts = useMemo(
+    () =>
+      products
+        .filter(isNewProduct)
+        .sort((first, second) => Number(second.id) - Number(first.id)),
+    [products],
+  );
   const searchSuggestions = useMemo(() => {
     const normalizedQuery = normalizeSearch(query);
     if (!normalizedQuery) return [];
@@ -333,6 +367,48 @@ export default function Catalog({ products }: CatalogProps) {
             </div>
           </div>
 
+          {newProducts.length > 0 && (
+            <section className="new-arrivals" aria-labelledby="new-arrivals-title">
+              <div className="new-arrivals-heading">
+                <div>
+                  <span className="new-arrivals-kicker">Yeni</span>
+                  <h2 id="new-arrivals-title">Yeni Gelenler</h2>
+                </div>
+                <p>En son eklenen ürünler</p>
+              </div>
+              <div className="new-arrivals-track">
+                {newProducts.map((product) => (
+                  <button
+                    type="button"
+                    className="new-arrival-card"
+                    key={`new-${product.id}`}
+                    onClick={() => setPreviewProduct(product)}
+                    aria-label={`${product.name} görselini büyüt`}
+                  >
+                    <span className="new-arrival-image">
+                      {product.imageUrl && !failedImages.has(product.id) ? (
+                        <Image
+                          src={product.imageUrl}
+                          alt=""
+                          fill
+                          sizes="(max-width: 760px) 42vw, 220px"
+                          onError={() => registerImageError(product.id)}
+                        />
+                      ) : (
+                        <span className="image-placeholder"><PackageIcon /></span>
+                      )}
+                      <span className="new-arrival-badge">Yeni</span>
+                    </span>
+                    <span className="new-arrival-copy">
+                      <strong>{product.name}</strong>
+                      <small>Ürün kodu {product.code}</small>
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+
           <div className="section-heading">
             <div>
               <p className="eyebrow"><span /> Katalog</p>
@@ -367,7 +443,10 @@ export default function Catalog({ products }: CatalogProps) {
             <>
               <div className="product-grid">
                 {visibleProducts.map((product) => (
-                  <article className="product-card" key={product.id}>
+                  <article
+                    className={`product-card reveal-card${isNewProduct(product) ? " is-new" : ""}`}
+                    key={product.id}
+                  >
                     <div className="product-image">
                       {product.imageUrl && !failedImages.has(product.id) ? (
                         <button
@@ -388,6 +467,7 @@ export default function Catalog({ products }: CatalogProps) {
                         <span className="image-placeholder"><PackageIcon /></span>
                       )}
                       <span className="category-badge">{product.category}</span>
+                      {isNewProduct(product) && <span className="product-new-badge">Yeni</span>}
                     </div>
                     <div className="product-info">
                       <h3>{product.name}</h3>
