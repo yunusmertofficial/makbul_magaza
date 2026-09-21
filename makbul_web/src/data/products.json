@@ -826,6 +826,13 @@
     "imageUrl": "/products/big-cekirdekli-siyah-uzum-kg986.webp"
   },
   {
+    "id": "216",
+    "code": "4015",
+    "name": "Üzüm Dalından Çekirdeksiz",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-uzum-dalindan-cekirdeksiz-kg851.jpg"
+  },
+  {
     "id": "140",
     "code": "1211",
     "name": "Ev Mantısı",
@@ -1279,5 +1286,12 @@
     "name": "Draje Çikolata Rengarenk",
     "category": "Çikolata ve Kaplamalı Ürünler",
     "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+  },
+  {
+    "id": "215",
+    "code": "7056",
+    "name": "Hurma Ezmesi Fıstıklı",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-hurma-ezmesi-fistikli-kg453.jpg"
   }
 ]
