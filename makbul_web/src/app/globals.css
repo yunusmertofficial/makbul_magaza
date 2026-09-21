@@ -1225,23 +1225,28 @@ footer > a {
 
   .hero {
     min-height: auto;
-    padding: 48px 27px 38px;
+    padding: 30px 22px 24px;
     display: block;
-    border-radius: 26px;
+    border-radius: 22px;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 12px;
   }
 
   .hero h1 {
     max-width: 100%;
-    font-size: clamp(40px, 11vw, 52px);
+    font-size: clamp(34px, 9.5vw, 44px);
   }
 
   .hero-copy {
-    margin: 21px 0 25px;
-    font-size: 15px;
+    margin: 14px 0 18px;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .search-box {
-    height: 59px;
+    height: 54px;
     padding-left: 16px;
     border-radius: 16px;
   }
@@ -1287,6 +1292,7 @@ footer > a {
 
   .hero-stats {
     width: 100%;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr auto 1fr auto 1fr;
     gap: 7px;
@@ -1305,6 +1311,11 @@ footer > a {
 
   .hero-stats span {
     margin-top: 2px;
+    font-size: 11px;
+  }
+
+  .hero-stats strong {
+    font-size: 16px;
   }
 
   .hero-visual {
@@ -1312,7 +1323,7 @@ footer > a {
   }
 
   .catalog {
-    padding: 78px 0 65px;
+    padding: 46px 0 65px;
   }
 
   .section-heading {
