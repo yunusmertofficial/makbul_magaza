@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import InstallPrompt from "@/components/install-prompt";
 
 type Product = {
@@ -50,6 +50,24 @@ export default function Catalog({ products }: CatalogProps) {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const [searchFocused, setSearchFocused] = useState(false);
+  const [previewProduct, setPreviewProduct] = useState<Product | null>(null);
+
+  useEffect(() => {
+    if (!previewProduct) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const closePreview = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setPreviewProduct(null);
+    };
+
+    document.body.style.overflow = "hidden";
+    document.addEventListener("keydown", closePreview);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", closePreview);
+    };
+  }, [previewProduct]);
 
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
@@ -283,13 +301,20 @@ export default function Catalog({ products }: CatalogProps) {
                   <article className="product-card" key={product.id}>
                     <div className="product-image">
                       {product.imageUrl && !failedImages.has(product.id) ? (
-                        <Image
-                          src={product.imageUrl}
-                          alt={product.name}
-                          fill
-                          sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 25vw"
-                          onError={() => registerImageError(product.id)}
-                        />
+                        <button
+                          type="button"
+                          className="product-image-trigger"
+                          onClick={() => setPreviewProduct(product)}
+                          aria-label={`${product.name} görselini büyüt`}
+                        >
+                          <Image
+                            src={product.imageUrl}
+                            alt={product.name}
+                            fill
+                            sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 25vw"
+                            onError={() => registerImageError(product.id)}
+                          />
+                        </button>
                       ) : (
                         <span className="image-placeholder"><PackageIcon /></span>
                       )}
@@ -336,6 +361,44 @@ export default function Catalog({ products }: CatalogProps) {
         <p>Ürün kataloğu · Tüm hakları saklıdır.</p>
         <a href="#top">Yukarı dön ↑</a>
       </footer>
+
+      {previewProduct && (
+        <div
+          className="image-lightbox"
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) setPreviewProduct(null);
+          }}
+        >
+          <div
+            className="image-lightbox-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="image-lightbox-title"
+          >
+            <button
+              type="button"
+              className="image-lightbox-close"
+              onClick={() => setPreviewProduct(null)}
+              aria-label="Büyük görseli kapat"
+            >
+              ×
+            </button>
+            <div className="image-lightbox-picture">
+              <Image
+                src={previewProduct.imageUrl}
+                alt={previewProduct.name}
+                fill
+                sizes="(max-width: 760px) 92vw, 80vw"
+                priority
+              />
+            </div>
+            <div className="image-lightbox-caption">
+              <strong id="image-lightbox-title">{previewProduct.name}</strong>
+              <span>Ürün kodu {previewProduct.code}</span>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
