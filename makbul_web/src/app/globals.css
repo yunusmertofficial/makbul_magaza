@@ -1170,27 +1170,31 @@ footer > a {
 
 @media (max-width: 760px) {
   .image-lightbox {
-    padding: 12px;
+    padding: 0;
+    background: rgba(7, 22, 14, 0.94);
   }
 
   .image-lightbox-dialog {
-    border-radius: 18px;
+    width: 100%;
+    height: 100dvh;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
 
   .image-lightbox-picture {
-    height: min(68vh, 560px);
+    height: 100dvh;
+    background: transparent;
   }
 
   .image-lightbox-caption {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    padding: 14px 16px;
+    display: none;
   }
 
-  .image-lightbox-caption strong {
-    padding-right: 46px;
-    font-size: 16px;
+  .image-lightbox-close {
+    top: max(12px, env(safe-area-inset-top));
+    right: 12px;
   }
 
   .site-header,
