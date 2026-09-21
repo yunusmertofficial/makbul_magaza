@@ -1249,6 +1249,10 @@ footer > a {
     line-height: 1.5;
   }
 
+  .hero .search-wrap {
+    display: none;
+  }
+
   .search-box {
     height: 54px;
     padding-left: 16px;
