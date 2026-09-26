@@ -787,8 +787,11 @@ a {
 }
 
 .ring-two::before {
-  width: 7px; height: 7px;
-  left: -3px; top: 50%;
+  width: 7px;
+  height: 7px;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background: rgba(218, 249, 122, 0.7);
   box-shadow: 0 0 10px 3px rgba(200, 234, 110, 0.35);
 }
