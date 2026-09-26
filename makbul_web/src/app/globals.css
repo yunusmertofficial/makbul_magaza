@@ -1254,23 +1254,6 @@ a {
   transform: scale(1.055);
 }
 
-/* Overlay on hover (no icon) */
-.product-image-trigger::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  opacity: 0;
-  background: rgba(5, 30, 15, 0.25);
-  backdrop-filter: blur(2px);
-  transition: opacity 220ms;
-}
-
-.product-card:hover .product-image-trigger::after {
-  opacity: 1;
-}
-
 .category-badge {
   position: absolute;
   z-index: 2;

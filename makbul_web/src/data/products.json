@@ -2,21 +2,21 @@
   {
     "id": "1",
     "code": "2071",
-    "name": "Çiğ Kaju",
+    "name": "Kaju Çiğ",
     "category": "Çok Satanlar",
     "imageUrl": "/products/big-cig-kaju-kg888.webp"
   },
   {
     "id": "2",
     "code": "2072",
-    "name": "Kavrulmuş Kaju",
+    "name": "Kaju Kavrulmuş",
     "category": "Çok Satanlar",
     "imageUrl": "/products/big-kaju-kg833.webp"
   },
   {
     "id": "3",
     "code": "2063",
-    "name": "Kavrulmuş Badem",
+    "name": "Badem Kavrulmuş",
     "category": "Çok Satanlar",
     "imageUrl": "/products/big-kavrulmus-badem-kg862.webp"
   },
@@ -30,7 +30,7 @@
   {
     "id": "5",
     "code": "2021",
-    "name": "Kavrulmuş Fındık",
+    "name": "Fındık Kavrulmuş",
     "category": "Çok Satanlar",
     "imageUrl": "/products/big-kavrulmus-findik-kg974.webp"
   },
@@ -65,7 +65,7 @@
   {
     "id": "10",
     "code": "2012",
-    "name": "Antep Fıstığı",
+    "name": "Fıstık Antep",
     "category": "Çok Satanlar",
     "imageUrl": "/products/big-antep-fistigi-kg886.webp"
   },
@@ -156,14 +156,14 @@
   {
     "id": "28",
     "code": "3120",
-    "name": "Duble Fıstıklı Sütlü Lokum",
+    "name": "Fıstıklı Sütlü Lokum Duble",
     "category": "Atıştırmalıklar",
     "imageUrl": "/products/big-duble-fistikli-sutlu-lokum-kg380.webp"
   },
   {
     "id": "29",
     "code": "3112",
-    "name": "Duble Fındıklı Lokum",
+    "name": "Fındıklı Lokum Duble",
     "category": "Atıştırmalıklar",
     "imageUrl": "/products/big-duble-findikli-lokum-kg834.webp"
   },
@@ -172,7 +172,7 @@
     "code": "1491",
     "name": "Cezerye",
     "category": "Öne Çıkanlar",
-    "imageUrl": "/products/big-cezerye-kg47.webp"
+    "imageUrl": "/products/big-cezerye-kg47.jpg"
   },
   {
     "id": "32",
@@ -205,7 +205,7 @@
   {
     "id": "42",
     "code": "3100",
-    "name": "Güllü Lokum",
+    "name": "Lokum Güllü",
     "category": "Düğün Paketleri",
     "imageUrl": "/products/big-gullu-lokum-kg394.webp"
   },
@@ -219,7 +219,7 @@
   {
     "id": "44",
     "code": "3100",
-    "name": "Sade Lokum",
+    "name": "Lokum Sade",
     "category": "Düğün Paketleri",
     "imageUrl": "/products/big-sade-lokum-kg449.webp"
   },
@@ -247,7 +247,7 @@
   {
     "id": "52",
     "code": "2061",
-    "name": "Çiğ Badem İçi",
+    "name": "Badem İçi Çiğ",
     "category": "Sağlıklı Kal",
     "imageUrl": "/products/big-cig-badem-ici-kg9.webp"
   },
@@ -303,7 +303,7 @@
   {
     "id": "213",
     "code": "2134",
-    "name": "Cips Piramit Süt Mısırı",
+    "name": "Cips Piramit Süt Mısır",
     "category": "Kuruyemiş",
     "imageUrl": "/products/piramit.webp"
   },
@@ -527,7 +527,7 @@
   {
     "id": "93",
     "code": "1061",
-    "name": "Buğday Aşurelik",
+    "name": "Aşurelik Buğday",
     "category": "Bakliyat",
     "imageUrl": "/products/big-asurelik-bugday-kg466.webp"
   },
@@ -1017,7 +1017,7 @@
   {
     "id": "166",
     "code": "3112",
-    "name": "Lokum Fındıklı Duble",
+    "name": "Fındıklı Lokum Duble",
     "category": "Lokum",
     "imageUrl": "/products/big-duble-findikli-lokum-kg834.webp"
   },
@@ -1187,7 +1187,7 @@
     "code": "1421",
     "name": "Muska Sade",
     "category": "Pestil ve Sucuk",
-    "imageUrl": "/products/big-findikli-muska-kg334.webp"
+    "imageUrl": "/products/sade-muska.webp"
   },
   {
     "id": "192",
