@@ -811,7 +811,7 @@ a {
 .new-arrivals {
   margin: 0 0 80px;
   padding: 30px;
-  overflow: hidden;
+  overflow: visible;
   border-radius: var(--radius-xl);
   border: 1.5px solid rgba(15, 92, 56, 0.12);
   background:
@@ -862,12 +862,13 @@ a {
 }
 
 .new-arrivals-track {
-  padding: 2px 2px 10px;
+  padding: 10px 4px 14px;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: minmax(190px, 1fr);
   gap: 12px;
   overflow-x: auto;
+  overflow-y: visible;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
   scrollbar-width: thin;
