@@ -1299,84 +1299,84 @@
     "code": "4004",
     "name": "Cevizli Sucuk Kelebek",
     "category": "Pestil ve Sucuk",
-    "imageUrl": "/products/big-cevizli-sucuk-kg495.webp"
+    "imageUrl": "/products/kelebek-cevizli-sucuk-f8a715.jpg"
   },
   {
     "id": "218",
     "code": "2136",
     "name": "Kabak Karbeyaz",
     "category": "Kuruyemiş",
-    "imageUrl": "/products/big-kabak-cekirdegi-kg363.webp"
+    "imageUrl": "/products/kabak-karbeyaz.webp"
   },
   {
     "id": "219",
     "code": "8223",
     "name": "Kaju Fırından",
     "category": "Kuruyemiş",
-    "imageUrl": "/products/big-kaju-kg833.webp"
+    "imageUrl": "/products/big-kaju-firindan-kg555-1.jpg"
   },
   {
     "id": "220",
     "code": "2082",
     "name": "Kokteyl Naturel",
     "category": "Kuruyemiş",
-    "imageUrl": "/products/big-kokteyl-luks-kg372.webp"
+    "imageUrl": "/products/kokteyl-naturel-2162-karisik-cerez-halktan-8657-21-B.jpg"
   },
   {
     "id": "221",
     "code": "7013",
     "name": "Draje Çikolata Fildişi",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+    "imageUrl": "/products/big-fildisi-cikolatali-findik-draje-kg528.jpg"
   },
   {
     "id": "222",
     "code": "7017",
     "name": "Draje Çikolata Bitter",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-draje-cakiltasi-kg818.webp"
+    "imageUrl": "/products/big-bitter-cikolatali-findik-draje-kg701.jpg"
   },
   {
     "id": "223",
     "code": "1002",
     "name": "Tropi Frutti Yumuşak Şeker",
     "category": "Sakız ve Şekerlemeler",
-    "imageUrl": "/products/big-jelly-yumusak-seker-kg186.webp"
+    "imageUrl": "/products/big-tropifrutti-karisik-yumusak-sekerleme464-1.jpg"
   },
   {
     "id": "224",
     "code": "1025",
     "name": "Jelly Ekşi Mix",
     "category": "Sakız ve Şekerlemeler",
-    "imageUrl": "/products/big-jellybig-super-kola-kg370.webp"
+    "imageUrl": "/products/big-jelly-eksi-mix-1.jpg"
   },
   {
     "id": "225",
     "code": "7121",
     "name": "Toptop Sakız",
     "category": "Sakız ve Şekerlemeler",
-    "imageUrl": "/products/big-joleberry948.webp"
+    "imageUrl": "/products/toptop-sakiz-2270-toptop-seker-halktan-8588-22-B.jpg"
   },
   {
     "id": "226",
     "code": "1001",
     "name": "Softbons Yumuşak Şeker",
     "category": "Sakız ve Şekerlemeler",
-    "imageUrl": "/products/big-jelirop-kg591.webp"
+    "imageUrl": "/products/big-softbons-yumusak-seker-kg456.jpg"
   },
   {
     "id": "227",
     "code": "7083",
     "name": "Draje Kaju",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-cikolatali-badem-draje-kg343.webp"
+    "imageUrl": "/products/big-spesiyal-kajulu-draje-kg618.jpg"
   },
   {
     "id": "228",
     "code": "7014",
     "name": "Draje Portakal Bitter",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+    "imageUrl": "/products/portakal-draje.jpg"
   },
   {
     "id": "229",
@@ -1390,6 +1390,6 @@
     "code": "7088",
     "name": "Draje Biskrem",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-draje-cakiltasi-kg818.webp"
+    "imageUrl": "/products/small-draje-biskrem906.jpg"
   }
 ]
