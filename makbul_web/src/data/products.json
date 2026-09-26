@@ -1391,5 +1391,33 @@
     "name": "Draje Biskrem",
     "category": "Çikolata ve Kaplamalı Ürünler",
     "imageUrl": "/products/small-draje-biskrem906.jpg"
+  },
+  {
+    "id": "231",
+    "code": "7215",
+    "name": "Mini Kornet",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
+  },
+  {
+    "id": "232",
+    "code": "7026",
+    "name": "Fındıklı Top Gofret",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-sutlu-cikolatali-findik-draje-kg387.webp"
+  },
+  {
+    "id": "233",
+    "code": "7057",
+    "name": "Altın Para",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+  },
+  {
+    "id": "234",
+    "code": "7025",
+    "name": "Choco Wafer",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
   }
 ]
