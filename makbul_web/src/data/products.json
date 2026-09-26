@@ -1397,27 +1397,34 @@
     "code": "7215",
     "name": "Mini Kornet",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
+    "imageUrl": "/products/mini-kornet.webp"
   },
   {
     "id": "232",
     "code": "7026",
     "name": "Fındıklı Top Gofret",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-sutlu-cikolatali-findik-draje-kg387.webp"
+    "imageUrl": "/products/findikli-top-gofret.avif"
   },
   {
     "id": "233",
     "code": "7057",
     "name": "Altın Para",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+    "imageUrl": "/products/big-altin-para-kg20.jpg"
   },
   {
     "id": "234",
     "code": "7025",
     "name": "Choco Wafer",
     "category": "Çikolata ve Kaplamalı Ürünler",
-    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
+    "imageUrl": "/products/chocowafer.jpg"
+  },
+  {
+    "id": "235",
+    "code": "1122",
+    "name": "Jellycik",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jellycik-kg284.jpg"
   }
 ]
