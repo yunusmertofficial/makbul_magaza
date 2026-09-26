@@ -1426,5 +1426,12 @@
     "name": "Jellycik",
     "category": "Sakız ve Şekerlemeler",
     "imageUrl": "/products/big-jellycik-kg284.jpg"
+  },
+  {
+    "id": "236",
+    "code": "3002",
+    "name": "Lokum Sultan Çilekli Duble",
+    "category": "Lokum",
+    "imageUrl": "/products/toz-fistikli-cilekli-sultan-lokumu.webp"
   }
 ]
