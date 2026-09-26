@@ -1815,6 +1815,40 @@ footer > a:hover {
   }
 
   .hero-visual {
+    position: absolute;
+    z-index: 0;
+    width: 280px;
+    height: 280px;
+    min-height: 0;
+    top: 76px;
+    right: -104px;
+    display: grid;
+    place-items: center;
+    transform: none;
+    opacity: 0.72;
+    pointer-events: none;
+  }
+
+  .hero-visual .ring-one {
+    width: 220px;
+    height: 220px;
+    border-color: rgba(218, 249, 122, 0.2);
+  }
+
+  .hero-visual .ring-two {
+    width: 156px;
+    height: 156px;
+    border-color: rgba(218, 249, 122, 0.17);
+  }
+
+  .hero-visual .ring-three {
+    width: 280px;
+    height: 280px;
+    border-color: rgba(218, 249, 122, 0.09);
+  }
+
+  .hero-visual .logo-orbit,
+  .hero-visual .floating-chip {
     display: none;
   }
 
