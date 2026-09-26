@@ -26,6 +26,8 @@ const NEW_PRODUCT_IDS = new Set([
   "231", "232", "233", "234",
   "235",
   "236",
+  "237",
+  "238", "239",
 ]);
 
 function isNewProduct(product: Product) {

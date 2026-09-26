@@ -1433,5 +1433,26 @@
     "name": "Lokum Sultan Çilekli Duble",
     "category": "Lokum",
     "imageUrl": "/products/toz-fistikli-cilekli-sultan-lokumu.webp"
+  },
+  {
+    "id": "237",
+    "code": "4061",
+    "name": "Kuru Meyve Tropik Mix",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-kurumeyve-tropik-mix-574-1.jpg"
+  },
+  {
+    "id": "238",
+    "code": "7084",
+    "name": "Draje Bisküvit",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-biskuvi-draje-kg650.jpg"
+  },
+  {
+    "id": "239",
+    "code": "2020",
+    "name": "Şehzade Yer Fıstıklı",
+    "category": "Lokum",
+    "imageUrl": "/products/big-lokum-sehzade-kg539.jpg"
   }
 ]
