@@ -765,7 +765,8 @@ a {
 }
 
 .ring-one::before,
-.ring-two::before {
+.ring-two::before,
+.ring-three::before {
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -790,6 +791,15 @@ a {
   left: -3px; top: 50%;
   background: rgba(218, 249, 122, 0.7);
   box-shadow: 0 0 10px 3px rgba(200, 234, 110, 0.35);
+}
+
+.ring-three::before {
+  width: 8px;
+  height: 8px;
+  right: 15%;
+  bottom: 15%;
+  background: rgba(218, 249, 122, 0.82);
+  box-shadow: 0 0 12px 3px rgba(200, 234, 110, 0.42);
 }
 
 .ring-three {
@@ -1709,11 +1719,7 @@ footer > a:hover {
   }
 
   .hero::after {
-    width: 260px;
-    height: 260px;
-    right: -150px;
-    top: -95px;
-    box-shadow: 0 0 0 42px rgba(210, 244, 135, 0.025);
+    display: none;
   }
 
   .hero .eyebrow {
@@ -1845,6 +1851,13 @@ footer > a:hover {
     width: 280px;
     height: 280px;
     border-color: rgba(218, 249, 122, 0.09);
+  }
+
+  .hero-visual .visual-ring::before {
+    background: var(--mint-bright);
+    box-shadow:
+      0 0 8px 2px rgba(200, 234, 110, 0.75),
+      0 0 18px 5px rgba(200, 234, 110, 0.2);
   }
 
   .hero-visual .logo-orbit,
