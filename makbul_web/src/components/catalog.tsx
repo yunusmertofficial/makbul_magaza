@@ -313,6 +313,7 @@ export default function Catalog({ products }: CatalogProps) {
           </div>
 
           <div className="hero-visual" aria-hidden="true">
+            <div className="visual-ring ring-three" />
             <div className="visual-ring ring-one" />
             <div className="visual-ring ring-two" />
             <div className="logo-orbit">
