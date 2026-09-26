@@ -200,7 +200,7 @@ export default function Catalog({ products }: CatalogProps) {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Makbul Mağazası ana sayfa">
           <span className="brand-logo">
-            <Image src="/logo.png" alt="Makbul Mağazası" width={52} height={52} priority />
+            <Image src="/app-icon.png" alt="Makbul Mağazası" width={52} height={52} priority />
           </span>
           <span>
             <strong>Makbul Mağazası</strong>
