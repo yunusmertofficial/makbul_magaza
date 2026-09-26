@@ -136,7 +136,7 @@
     "id": "25",
     "code": "1203",
     "name": "Jölelop",
-    "category": "Atıştırmalıklar",
+    "category": "Sakız ve Şekerlemeler",
     "imageUrl": "/products/big-jolelop255.webp"
   },
   {
@@ -1293,5 +1293,103 @@
     "name": "Hurma Ezmesi Fıstıklı",
     "category": "Çikolata ve Kaplamalı Ürünler",
     "imageUrl": "/products/big-hurma-ezmesi-fistikli-kg453.jpg"
+  },
+  {
+    "id": "217",
+    "code": "4004",
+    "name": "Cevizli Sucuk Kelebek",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-cevizli-sucuk-kg495.webp"
+  },
+  {
+    "id": "218",
+    "code": "2136",
+    "name": "Kabak Karbeyaz",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabak-cekirdegi-kg363.webp"
+  },
+  {
+    "id": "219",
+    "code": "8223",
+    "name": "Kaju Fırından",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kaju-kg833.webp"
+  },
+  {
+    "id": "220",
+    "code": "2082",
+    "name": "Kokteyl Naturel",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kokteyl-luks-kg372.webp"
+  },
+  {
+    "id": "221",
+    "code": "7013",
+    "name": "Draje Çikolata Fildişi",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+  },
+  {
+    "id": "222",
+    "code": "7017",
+    "name": "Draje Çikolata Bitter",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cakiltasi-kg818.webp"
+  },
+  {
+    "id": "223",
+    "code": "1002",
+    "name": "Tropi Frutti Yumuşak Şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jelly-yumusak-seker-kg186.webp"
+  },
+  {
+    "id": "224",
+    "code": "1025",
+    "name": "Jelly Ekşi Mix",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jellybig-super-kola-kg370.webp"
+  },
+  {
+    "id": "225",
+    "code": "7121",
+    "name": "Toptop Sakız",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-joleberry948.webp"
+  },
+  {
+    "id": "226",
+    "code": "1001",
+    "name": "Softbons Yumuşak Şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jelirop-kg591.webp"
+  },
+  {
+    "id": "227",
+    "code": "7083",
+    "name": "Draje Kaju",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-cikolatali-badem-draje-kg343.webp"
+  },
+  {
+    "id": "228",
+    "code": "7014",
+    "name": "Draje Portakal Bitter",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+  },
+  {
+    "id": "229",
+    "code": "7033",
+    "name": "Roll in Love Mix",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
+  },
+  {
+    "id": "230",
+    "code": "7088",
+    "name": "Draje Biskrem",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cakiltasi-kg818.webp"
   }
 ]

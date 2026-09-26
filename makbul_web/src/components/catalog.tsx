@@ -17,7 +17,13 @@ type CatalogProps = {
 };
 
 const PAGE_SIZE = 24;
-const NEW_PRODUCT_IDS = new Set(["209", "210", "211", "212", "213", "214", "215", "216"]);
+const NEW_PRODUCT_IDS = new Set([
+  "25",
+  "203",
+  "209", "210", "211", "212", "213", "214", "215", "216",
+  "217", "218", "219", "220", "221", "222",
+  "223", "224", "225", "226", "227", "228", "229", "230",
+]);
 
 function isNewProduct(product: Product) {
   return NEW_PRODUCT_IDS.has(product.id);
