@@ -1180,14 +1180,13 @@ a {
   transform: scale(1.055);
 }
 
-/* Zoom icon on hover */
+/* Overlay on hover (no icon) */
 .product-image-trigger::after {
-  content: "🔍";
+  content: "";
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
-  font-size: 22px;
   opacity: 0;
   background: rgba(5, 30, 15, 0.25);
   backdrop-filter: blur(2px);
