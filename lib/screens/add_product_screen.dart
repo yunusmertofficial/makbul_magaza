@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../models/product.dart';
 import '../services/product_service.dart';
 
 String _toUpperCaseTr(String s) {
   const from = 'abcçdefgğhıijklmnoöprsştuüvyz';
-  const to   = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ';
+  const to = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ';
   return s.split('').map((c) {
     final i = from.indexOf(c);
     return i != -1 ? to[i] : c.toUpperCase();
@@ -14,7 +13,7 @@ String _toUpperCaseTr(String s) {
 
 String _toLowerCaseTr(String s) {
   const from = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ';
-  const to   = 'abcçdefgğhıijklmnoöprsştuüvyz';
+  const to = 'abcçdefgğhıijklmnoöprsştuüvyz';
   return s.split('').map((c) {
     final i = from.indexOf(c);
     return i != -1 ? to[i] : c.toLowerCase();
@@ -100,7 +99,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
         ),
         title: Text(
           isEditing ? 'Ürün Düzenle' : 'Yeni Ürün Ekle',
-          style: GoogleFonts.outfit(
+          style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w700,
             fontSize: 20,
@@ -150,8 +149,9 @@ class _AddProductScreenState extends State<AddProductScreen> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF00C9A7),
                     foregroundColor: const Color(0xFF0D1B2A),
-                    disabledBackgroundColor:
-                        const Color(0xFF00C9A7).withValues(alpha: 0.5),
+                    disabledBackgroundColor: const Color(
+                      0xFF00C9A7,
+                    ).withValues(alpha: 0.5),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16),
                     ),
@@ -160,10 +160,12 @@ class _AddProductScreenState extends State<AddProductScreen> {
                   ),
                   child: _isSaving
                       ? const CircularProgressIndicator(
-                          color: Color(0xFF0D1B2A), strokeWidth: 2)
+                          color: Color(0xFF0D1B2A),
+                          strokeWidth: 2,
+                        )
                       : Text(
                           isEditing ? 'Güncelle' : 'Kaydet',
-                          style: GoogleFonts.outfit(
+                          style: TextStyle(
                             fontSize: 17,
                             fontWeight: FontWeight.w700,
                           ),
@@ -225,7 +227,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                   const SizedBox(height: 8),
                   Text(
                     'Resim Önizleme',
-                    style: GoogleFonts.outfit(
+                    style: TextStyle(
                       color: const Color(0xFF00C9A7).withValues(alpha: 0.5),
                       fontSize: 12,
                     ),
@@ -253,9 +255,11 @@ class _AddProductScreenState extends State<AddProductScreen> {
         labelText: label,
         hintText: hint,
         prefixIcon: Icon(icon, color: const Color(0xFF00C9A7), size: 20),
-        labelStyle: GoogleFonts.outfit(color: const Color(0xFF7B9FCF)),
-        hintStyle: GoogleFonts.outfit(
-            color: Colors.white.withValues(alpha: 0.25), fontSize: 14),
+        labelStyle: TextStyle(color: const Color(0xFF7B9FCF)),
+        hintStyle: TextStyle(
+          color: Colors.white.withValues(alpha: 0.25),
+          fontSize: 14,
+        ),
         filled: true,
         fillColor: const Color(0xFF1E2A3A),
         border: OutlineInputBorder(

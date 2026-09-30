@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../models/product.dart';
 import '../services/product_service.dart';
 import '../widgets/product_card.dart';
@@ -7,7 +6,7 @@ import 'add_product_screen.dart';
 
 String _toLowerCaseTr(String s) {
   const from = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ';
-  const to   = 'abcçdefgğhıijklmnoöprsştuüvyz';
+  const to = 'abcçdefgğhıijklmnoöprsştuüvyz';
   return s.split('').map((c) {
     final i = from.indexOf(c);
     return i != -1 ? to[i] : c.toLowerCase();
@@ -53,9 +52,6 @@ class _HomeScreenState extends State<HomeScreen>
   Future<void> _loadProducts() async {
     setState(() => _isLoading = true);
     final products = await _service.getProducts();
-    for (final p in products) {
-      debugPrint('ÜRÜN: ${p.name} | URL: ${p.imageUrl}');
-    }
     PaintingBinding.instance.imageCache.clear();
     setState(() {
       _allProducts = products;
@@ -77,58 +73,6 @@ class _HomeScreenState extends State<HomeScreen>
         }).toList();
       }
     });
-  }
-
-  Future<void> _deleteProduct(Product product) async {
-    final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        backgroundColor: const Color(0xFF1E2A3A),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: Text(
-          'Ürünü Sil',
-          style: GoogleFonts.outfit(
-              color: Colors.white, fontWeight: FontWeight.w700),
-        ),
-        content: Text(
-          '"${product.name}" ürününü silmek istediğinize emin misiniz?',
-          style: GoogleFonts.outfit(color: const Color(0xFF7B9FCF)),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text('İptal',
-                style: GoogleFonts.outfit(color: const Color(0xFF7B9FCF))),
-          ),
-          ElevatedButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFFFF6B6B),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10)),
-            ),
-            child: Text('Sil',
-                style: GoogleFonts.outfit(
-                    color: Colors.white, fontWeight: FontWeight.w700)),
-          ),
-        ],
-      ),
-    );
-
-    if (confirmed == true) {
-      await _service.deleteProduct(product.id);
-      _loadProducts();
-    }
-  }
-
-  Future<void> _editProduct(Product product) async {
-    final result = await Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => AddProductScreen(existingProduct: product),
-      ),
-    );
-    if (result == true) _loadProducts();
   }
 
   Future<void> _addProduct() async {
@@ -160,10 +104,7 @@ class _HomeScreenState extends State<HomeScreen>
         foregroundColor: const Color(0xFF0D1B2A),
         elevation: 8,
         icon: const Icon(Icons.add),
-        label: Text(
-          'Ürün Ekle',
-          style: GoogleFonts.outfit(fontWeight: FontWeight.w700),
-        ),
+        label: Text('Ürün Ekle', style: TextStyle(fontWeight: FontWeight.w700)),
       ),
     );
   }
@@ -187,8 +128,8 @@ class _HomeScreenState extends State<HomeScreen>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Makbul Mağazası',
-                style: GoogleFonts.outfit(
+                'Makbul Ürün Kodları',
+                style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w800,
                   color: Colors.white,
@@ -197,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen>
               ),
               Text(
                 'Ürün Yönetim Sistemi',
-                style: GoogleFonts.outfit(
+                style: TextStyle(
                   fontSize: 12,
                   color: const Color(0xFF7B9FCF),
                   fontWeight: FontWeight.w400,
@@ -212,11 +153,12 @@ class _HomeScreenState extends State<HomeScreen>
               color: const Color(0xFF00C9A7).withValues(alpha: 0.15),
               borderRadius: BorderRadius.circular(10),
               border: Border.all(
-                  color: const Color(0xFF00C9A7).withValues(alpha: 0.3)),
+                color: const Color(0xFF00C9A7).withValues(alpha: 0.3),
+              ),
             ),
             child: Text(
               '${_allProducts.length} Ürün',
-              style: GoogleFonts.outfit(
+              style: TextStyle(
                 color: const Color(0xFF00C9A7),
                 fontWeight: FontWeight.w600,
                 fontSize: 13,
@@ -249,19 +191,25 @@ class _HomeScreenState extends State<HomeScreen>
         ),
         child: TextField(
           controller: _searchController,
-          style: GoogleFonts.outfit(color: Colors.white, fontSize: 15),
+          style: TextStyle(color: Colors.white, fontSize: 15),
           decoration: InputDecoration(
             hintText: 'Ürün kodu veya adı ile ara...',
-            hintStyle: GoogleFonts.outfit(
+            hintStyle: TextStyle(
               color: Colors.white.withValues(alpha: 0.3),
               fontSize: 14,
             ),
-            prefixIcon:
-                const Icon(Icons.search, color: Color(0xFF00C9A7), size: 22),
+            prefixIcon: const Icon(
+              Icons.search,
+              color: Color(0xFF00C9A7),
+              size: 22,
+            ),
             suffixIcon: _searchController.text.isNotEmpty
                 ? IconButton(
-                    icon: const Icon(Icons.close,
-                        color: Color(0xFF7B9FCF), size: 18),
+                    icon: const Icon(
+                      Icons.close,
+                      color: Color(0xFF7B9FCF),
+                      size: 18,
+                    ),
                     onPressed: () {
                       _searchController.clear();
                       _onSearch();
@@ -269,8 +217,10 @@ class _HomeScreenState extends State<HomeScreen>
                   )
                 : null,
             border: InputBorder.none,
-            contentPadding:
-                const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 14,
+            ),
           ),
         ),
       ),
@@ -289,10 +239,7 @@ class _HomeScreenState extends State<HomeScreen>
           const SizedBox(width: 6),
           Text(
             '"$query" için ${_filteredProducts.length} sonuç',
-            style: GoogleFonts.outfit(
-              color: const Color(0xFF7B9FCF),
-              fontSize: 13,
-            ),
+            style: TextStyle(color: const Color(0xFF7B9FCF), fontSize: 13),
           ),
         ],
       ),
@@ -323,7 +270,7 @@ class _HomeScreenState extends State<HomeScreen>
               _searchController.text.isNotEmpty
                   ? 'Ürün bulunamadı'
                   : 'Henüz ürün yok',
-              style: GoogleFonts.outfit(
+              style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.5),
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
@@ -334,7 +281,7 @@ class _HomeScreenState extends State<HomeScreen>
               _searchController.text.isNotEmpty
                   ? 'Farklı bir kod veya isim deneyin'
                   : 'Sağ alttaki + butonuna tıklayın',
-              style: GoogleFonts.outfit(
+              style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.3),
                 fontSize: 13,
               ),
@@ -354,11 +301,7 @@ class _HomeScreenState extends State<HomeScreen>
           return AnimatedSlide(
             duration: Duration(milliseconds: 300 + (index * 50)),
             offset: Offset.zero,
-            child: ProductCard(
-              product: product,
-              onDelete: () => _deleteProduct(product),
-              onEdit: () => _editProduct(product),
-            ),
+            child: ProductCard(product: product),
           );
         },
       ),
@@ -386,7 +329,7 @@ class _HomeScreenState extends State<HomeScreen>
           const SizedBox(width: 6),
           Text(
             'Bu uygulama Yuşa Emin Mert\'e aittir.',
-            style: GoogleFonts.outfit(
+            style: TextStyle(
               fontSize: 12,
               color: const Color(0xFF7B9FCF).withValues(alpha: 0.7),
               fontWeight: FontWeight.w500,

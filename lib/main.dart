@@ -19,7 +19,7 @@ class MakbulApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Makbul Mağazası',
+      title: 'Makbul Ürün Kodları',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(

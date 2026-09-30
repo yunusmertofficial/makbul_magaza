@@ -1,18 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../models/product.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
-  final VoidCallback? onDelete;
-  final VoidCallback? onEdit;
 
-  const ProductCard({
-    super.key,
-    required this.product,
-    this.onDelete,
-    this.onEdit,
-  });
+  const ProductCard({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
@@ -52,10 +44,22 @@ class ProductCard extends StatelessWidget {
                   color: const Color(0xFF0D1B2A),
                 ),
                 clipBehavior: Clip.antiAlias,
-                child: product.imageUrl.isNotEmpty
-                    ? Image.network(
-                        key: ValueKey(product.imageUrl),
+                child: product.imageUrl.isEmpty
+                    ? const Icon(
+                        Icons.inventory_2_outlined,
+                        color: Color(0xFF00C9A7),
+                        size: 36,
+                      )
+                    : product.imageUrl.startsWith('assets/')
+                    ? Image.asset(
                         product.imageUrl,
+                        key: ValueKey(product.imageUrl),
+                        fit: BoxFit.cover,
+                        errorBuilder: _imageErrorBuilder,
+                      )
+                    : Image.network(
+                        product.imageUrl,
+                        key: ValueKey(product.imageUrl),
                         fit: BoxFit.cover,
                         loadingBuilder: (ctx, child, progress) {
                           if (progress == null) return child;
@@ -66,19 +70,7 @@ class ProductCard extends StatelessWidget {
                             ),
                           );
                         },
-                        errorBuilder: (ctx, err, stack) {
-                          debugPrint('Resim yüklenemedi: ${product.imageUrl} — Hata: $err');
-                          return const Icon(
-                            Icons.image_not_supported_outlined,
-                            color: Color(0xFF00C9A7),
-                            size: 36,
-                          );
-                        },
-                      )
-                    : const Icon(
-                        Icons.inventory_2_outlined,
-                        color: Color(0xFF00C9A7),
-                        size: 36,
+                        errorBuilder: _imageErrorBuilder,
                       ),
               ),
             ),
@@ -98,7 +90,10 @@ class ProductCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 6),
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 4,
+                    ),
                     decoration: BoxDecoration(
                       color: const Color(0xFF00C9A7).withValues(alpha: 0.15),
                       borderRadius: BorderRadius.circular(8),
@@ -117,7 +112,8 @@ class ProductCard extends StatelessWidget {
                         const SizedBox(width: 4),
                         Text(
                           product.code,
-                          style: GoogleFonts.robotoMono(
+                          style: TextStyle(
+                            fontFamily: 'monospace',
                             fontSize: 13,
                             fontWeight: FontWeight.w600,
                             color: const Color(0xFF00C9A7),
@@ -129,26 +125,22 @@ class ProductCard extends StatelessWidget {
                 ],
               ),
             ),
-            // Aksiyonlar
-            Column(
-              children: [
-                if (onEdit != null)
-                  IconButton(
-                    onPressed: onEdit,
-                    icon: const Icon(Icons.edit_outlined, color: Color(0xFF7B9FCF), size: 20),
-                    tooltip: 'Düzenle',
-                  ),
-                if (onDelete != null)
-                  IconButton(
-                    onPressed: onDelete,
-                    icon: const Icon(Icons.delete_outline, color: Color(0xFFFF6B6B), size: 20),
-                    tooltip: 'Sil',
-                  ),
-              ],
-            ),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _imageErrorBuilder(
+    BuildContext context,
+    Object error,
+    StackTrace? stackTrace,
+  ) {
+    debugPrint('Resim yüklenemedi: ${product.imageUrl} — Hata: $error');
+    return const Icon(
+      Icons.image_not_supported_outlined,
+      color: Color(0xFF00C9A7),
+      size: 36,
     );
   }
 }
