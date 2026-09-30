@@ -1,1 +1,1465 @@
-[{"id":"1","code":"2071","name":"Kaju Ã‡iÄŸ","category":"Ã‡ok Satanlar","imageUrl":"/products/big-cig-kaju-kg888.webp"},{"id":"2","code":"2072","name":"Kaju KavrulmuÅŸ","category":"Ã‡ok Satanlar","imageUrl":"/products/big-kaju-kg833.webp"},{"id":"3","code":"2063","name":"Badem KavrulmuÅŸ","category":"Ã‡ok Satanlar","imageUrl":"/products/big-kavrulmus-badem-kg862.webp"},{"id":"4","code":"2103","name":"Ceviz Ä°Ã§i Ã–zel","category":"Ã‡ok Satanlar","imageUrl":"/products/big-ozel-ceviz-ici-kg449.webp"},{"id":"5","code":"2021","name":"FÄ±ndÄ±k KavrulmuÅŸ","category":"Ã‡ok Satanlar","imageUrl":"/products/big-kavrulmus-findik-kg974.webp"},{"id":"6","code":"2111","name":"Soslu MÄ±sÄ±r","category":"Ã‡ok Satanlar","imageUrl":"/products/big-soslu-misir-kg178.webp"},{"id":"7","code":"2027","name":"Makademya FÄ±ndÄ±k KavrulmuÅŸ","category":"Ã‡ok Satanlar","imageUrl":"/products/big-makademya-findik-kavrulmus689.webp"},{"id":"8","code":"2151","name":"Kokteyl LÃ¼ks","category":"Ã‡ok Satanlar","imageUrl":"/products/big-kokteyl-luks-kg372.webp"},{"id":"9","code":"6031","name":"TÃ¼rk Kahvesi","category":"Ã‡ok Satanlar","imageUrl":"/products/big-turk-kahvesi-kg961.webp"},{"id":"10","code":"2012","name":"FÄ±stÄ±k Antep","category":"Ã‡ok Satanlar","imageUrl":"/products/big-antep-fistigi-kg886.webp"},{"id":"11","code":"2081","name":"Kokteyl AtÄ±ÅŸtÄ±r","category":"Ã‡ok Satanlar","imageUrl":"/products/big-kokteyl-atistir339.webp"},{"id":"12","code":"3114","name":"Lokum Cennet Fitil FÄ±ndÄ±klÄ± NarlÄ±","category":"Yeni Gelenler","imageUrl":"/products/big-lokum-cennet-fitil-findikli-sade-kg615.webp"},{"id":"16","code":"3114","name":"Lokum Cennet Fitil FÄ±ndÄ±klÄ± Sade","category":"Yeni Gelenler","imageUrl":"/products/big-lokum-cennet-fitil-findikli-sade-kg615.webp"},{"id":"17","code":"3114","name":"Lokum Cennet Fitil FÄ±ndÄ±klÄ± PortakallÄ±","category":"Yeni Gelenler","imageUrl":"/products/big-lokum-cennet-fitil-findikli-portakalli-kg414.webp"},{"id":"18","code":"3114","name":"Lokum Cennet Fitil FÄ±ndÄ±klÄ± Karadutlu","category":"Yeni Gelenler","imageUrl":"/products/big-lokum-cennet-fitil-findikli-karadutlu-kg694.webp"},{"id":"21","code":"7068","name":"Karamelli Ã‡ikolata","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-karamelli-cikolata-kg52.webp"},{"id":"22","code":"7216","name":"Slimfoods Bar","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-slimfoods-bar-kg686.webp"},{"id":"23","code":"3023","name":"Lokum NarlÄ± Zengin Duble","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-lokum-narli-zengin-duble336.webp"},{"id":"24","code":"7054","name":"Cocony Hindistan Cevizli Bar","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-cocony-hindistan-cevizli-bar-kg591.webp"},{"id":"25","code":"1203","name":"JÃ¶lelop","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jolelop255.webp"},{"id":"26","code":"1121","name":"Jelly YumuÅŸak Åeker","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-jelly-yumusak-seker-kg186.webp"},{"id":"27","code":"3128","name":"Ã‡ikolata KaplÄ± Lokum","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-cikolatali-lokum-kg703.webp"},{"id":"28","code":"3120","name":"FÄ±stÄ±klÄ± SÃ¼tlÃ¼ Lokum Duble","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-duble-fistikli-sutlu-lokum-kg380.webp"},{"id":"29","code":"3112","name":"FÄ±ndÄ±klÄ± Lokum Duble","category":"AtÄ±ÅŸtÄ±rmalÄ±klar","imageUrl":"/products/big-duble-findikli-lokum-kg834.webp"},{"id":"31","code":"1491","name":"Cezerye","category":"Ã–ne Ã‡Ä±kanlar","imageUrl":"/products/big-cezerye-kg47.jpg"},{"id":"32","code":"7012","name":"SÃ¼tlÃ¼ Ã‡ikolatalÄ± FÄ±ndÄ±k Draje","category":"Ã–ne Ã‡Ä±kanlar","imageUrl":"/products/big-sutlu-cikolatali-findik-draje-kg387.webp"},{"id":"38","code":"6032","name":"Gold Kahve","category":"Bir Yudum Mutluluk","imageUrl":"/products/big-gold-kahve-kg668.webp"},{"id":"40","code":"7051","name":"Badem Åekeri","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-badem-sekeri-kg946.webp"},{"id":"41","code":"7042","name":"YÃ¶resel Badem Åekeri","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-yoresel-badem-sekeri.webp"},{"id":"42","code":"3100","name":"Lokum GÃ¼llÃ¼","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-gullu-lokum-kg394.webp"},{"id":"43","code":"3100","name":"KuÅŸ Lokumu","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-kus-lokumu-kg635.webp"},{"id":"44","code":"3100","name":"Lokum Sade","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-sade-lokum-kg449.webp"},{"id":"45","code":"2078","name":"Kokteyl Maksimum","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-kokteyl-maksimum830.webp"},{"id":"46","code":"2153","name":"Kokteyl Gurme","category":"DÃ¼ÄŸÃ¼n Paketleri","imageUrl":"/products/big-kokteyl-gurme-kg446.webp"},{"id":"50","code":"5111","name":"Yulaf Ezmesi","category":"SaÄŸlÄ±klÄ± Kal","imageUrl":"/products/big-yulaf-ezmesi-kg467.webp"},{"id":"52","code":"2061","name":"Badem Ä°Ã§i Ã‡iÄŸ","category":"SaÄŸlÄ±klÄ± Kal","imageUrl":"/products/big-cig-badem-ici-kg9.webp"},{"id":"53","code":"2044","name":"AyÃ§ekirdek Siyah Tuzsuz","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzsuz-siyah-aycekirdek-kg75.webp"},{"id":"54","code":"2043","name":"AyÃ§ekirdek Siyah Uzun","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzlu-siyah-aycekirdek-kg296.webp"},{"id":"57","code":"2101","name":"Ceviz Kabuklu","category":"KuruyemiÅŸ","imageUrl":"/products/big-california-kabuklu-ceviz-kg708.webp"},{"id":"58","code":"2132","name":"Cips BallÄ± Susam","category":"KuruyemiÅŸ","imageUrl":"/products/big-balli-susamli-cips-kg861.webp"},{"id":"59","code":"2057","name":"Cips FÄ±stÄ±k","category":"KuruyemiÅŸ","imageUrl":"/products/big-cips-fistik-kg543.webp"},{"id":"60","code":"2131","name":"Cips ÅapkalÄ±","category":"KuruyemiÅŸ","imageUrl":"/products/big-sapkali-cips-kg642.webp"},{"id":"61","code":"2133","name":"Cips TÄ±rtÄ±l","category":"KuruyemiÅŸ","imageUrl":"/products/big-tirtil-cips-kg464.webp"},{"id":"213","code":"2134","name":"Cips Piramit SÃ¼t MÄ±sÄ±r","category":"KuruyemiÅŸ","imageUrl":"/products/piramit.webp"},{"id":"214","code":"2135","name":"Cips Makarna KetÃ§ap","category":"KuruyemiÅŸ","imageUrl":"/products/big-ketcap-aromali-makarna-cipsi.jpg"},{"id":"62","code":"2022","name":"FÄ±ndÄ±k Ä°Ã§i Ã‡iÄŸ","category":"KuruyemiÅŸ","imageUrl":"/products/big-cig-findik-kg545.webp"},{"id":"63","code":"2023","name":"FÄ±ndÄ±k Kabuklu","category":"KuruyemiÅŸ","imageUrl":"/products/big-kabuklu-findik-kg425.webp"},{"id":"209","code":"2029","name":"Kabuklu KavrulmuÅŸ Makademya FÄ±ndÄ±ÄŸÄ±","category":"KuruyemiÅŸ","imageUrl":"/products/big-kabuklu-kavrulmus-makademya-findigi394.jpg"},{"id":"64","code":"2026","name":"FÄ±ndÄ±k tuzlu kavrulmuÅŸ","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzlu-kavrulmus-findik-kg847.webp"},{"id":"65","code":"2051","name":"FÄ±stÄ±k Kabuklu","category":"KuruyemiÅŸ","imageUrl":"/products/big-kabuklu-fistik-kg237.webp"},{"id":"66","code":"2054","name":"FÄ±stÄ±k Kendy","category":"KuruyemiÅŸ","imageUrl":"/products/fistik-kendy-2150-fistik-halktan-8669-21-B.jpg"},{"id":"67","code":"2011","name":"FÄ±stÄ±k Siirt","category":"KuruyemiÅŸ","imageUrl":"/products/big-siirt-fistigi-kg238.webp"},{"id":"68","code":"2056","name":"FÄ±stÄ±k Soslu","category":"KuruyemiÅŸ","imageUrl":"/products/big-soslu-fistik-kg849.webp"},{"id":"69","code":"2059","name":"FÄ±stÄ±k Tango","category":"KuruyemiÅŸ","imageUrl":"/products/big-tango-fistik-kg544.webp"},{"id":"70","code":"2055","name":"FÄ±stÄ±k Toppy","category":"KuruyemiÅŸ","imageUrl":"/products/big-toppy-fistik-kg657.webp"},{"id":"71","code":"2053","name":"FÄ±stÄ±k Tuzlu LÃ¼ks","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzlu-fistik-kg368.webp"},{"id":"72","code":"2052","name":"FÄ±stÄ±k Tuzsuz LÃ¼ks","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzsuz-fistik-kg144.webp"},{"id":"73","code":"2031","name":"Kabak Ã‡ifte NevÅŸehir","category":"KuruyemiÅŸ","imageUrl":"/products/big-cifte-kavrulmus-kabak-cekirdegi-kg892.webp"},{"id":"74","code":"2035","name":"Kabak Ä°Ã§i Ã‡iÄŸ","category":"KuruyemiÅŸ","imageUrl":"/products/big-kabak-cekirdegi-ici-kg935.webp"},{"id":"75","code":"2032","name":"Kabak NevÅŸehir","category":"KuruyemiÅŸ","imageUrl":"/products/big-kabak-cekirdegi-kg363.webp"},{"id":"76","code":"2033","name":"Kabak Edirne","category":"KuruyemiÅŸ","imageUrl":"/products/big-cifte-kavrulmus-sivri-kabak-cekirdegi-kg257.webp"},{"id":"77","code":"2034","name":"Kabak Tuzsuz","category":"KuruyemiÅŸ","imageUrl":"/products/big-tuzsuz-kabak-cekirdegi-kg977.webp"},{"id":"78","code":"2084","name":"Kokteyl eko Enerji","category":"KuruyemiÅŸ","imageUrl":"/products/big-kokteyl-enerji-kg301.webp"},{"id":"79","code":"2094","name":"Leblebi Beyaz Duble","category":"KuruyemiÅŸ","imageUrl":"/products/big-duble-beyaz-leblebi-kg608.webp"},{"id":"81","code":"2091","name":"Ã‡Ä±tÄ±r Ã‡erez","category":"KuruyemiÅŸ","imageUrl":"/products/big-citir-leblebi-sari-kg248.jpg"},{"id":"82","code":"2098","name":"Leblebi Natural KÃ¶y","category":"KuruyemiÅŸ","imageUrl":"/products/big-koy-leblebisi-kg231.webp"},{"id":"83","code":"2092","name":"Leblebi SarÄ± Duble","category":"KuruyemiÅŸ","imageUrl":"/products/big-duble-sari-leblebi-kg527.webp"},{"id":"84","code":"2097","name":"Leblebi Åeker Beyaz","category":"KuruyemiÅŸ","imageUrl":"/products/big-leblebi-sekeri-beyaz-kg899.webp"},{"id":"85","code":"2096","name":"Leblebi Åeker Renkli","category":"KuruyemiÅŸ","imageUrl":"/products/big-leblebi-sekeri-renkli-kg428.webp"},{"id":"86","code":"2093","name":"Leblebi Tuzlu Duble","category":"KuruyemiÅŸ","imageUrl":"/products/big-duble-tuzlu-leblebi-kg895.webp"},{"id":"87","code":"2121","name":"Karpuz Ã‡ekirdeÄŸi","category":"KuruyemiÅŸ","imageUrl":"/products/big-kavrulmus-karpuz-cekirdegi-kg818.webp"},{"id":"89","code":"1081","name":"Bakla Ä°Ã§","category":"Bakliyat","imageUrl":"/products/big-bakla-ici-kg543.webp"},{"id":"90","code":"1082","name":"Bakla Kabuklu","category":"Bakliyat","imageUrl":"/products/big-kabuklu-bakla-kg843.webp"},{"id":"91","code":"1071","name":"Barbunya Kiraz","category":"Bakliyat","imageUrl":"/products/big-barbunya-kg264.webp"},{"id":"92","code":"1101","name":"BÃ¶rÃ¼lce","category":"Bakliyat","imageUrl":"/products/big-borulce-kg426.webp"},{"id":"93","code":"1061","name":"AÅŸurelik BuÄŸday","category":"Bakliyat","imageUrl":"/products/big-asurelik-bugday-kg466.webp"},{"id":"94","code":"1038","name":"Bulgur BaÅŸbaÅŸÄ±","category":"Bakliyat","imageUrl":"/products/big-basbasi-bulgur-kg21.webp"},{"id":"95","code":"1035","name":"Bulgur Esmer KÃ¶ftelik","category":"Bakliyat","imageUrl":"/products/big-esmer-koftelik-bulgur-kg271.webp"},{"id":"96","code":"1034","name":"Bulgur Esmer PilavlÄ±k","category":"Bakliyat","imageUrl":"/products/big-pilavlik-bulgur-kg947.webp"},{"id":"97","code":"1031","name":"Bulgur KÃ¶ftelik","category":"Bakliyat","imageUrl":"/products/big-koftelik-bulgur-kg644.webp"},{"id":"98","code":"1033","name":"Bulgur Midyat","category":"Bakliyat","imageUrl":"/products/big-midyat-bulgur-kg279.webp"},{"id":"99","code":"1032","name":"Bulgur PilavlÄ±k","category":"Bakliyat","imageUrl":"/products/big-pilavlik-bulgur-kg947.webp"},{"id":"100","code":"1037","name":"Bulgur Seferkitel","category":"Bakliyat","imageUrl":"/products/big-seferkitel-bulgur-kg358.webp"},{"id":"101","code":"1036","name":"Bulgur Åehriyeli","category":"Bakliyat","imageUrl":"/products/big-sehriyeli-bulgur-kg169.webp"},{"id":"102","code":"1044","name":"Fasulye Bombay","category":"Bakliyat","imageUrl":"/products/big-bombay-fasulye-kg95.webp"},{"id":"103","code":"1045","name":"Fasulye Dermason","category":"Bakliyat","imageUrl":"/products/big-dermason-fasulye-kg983.webp"},{"id":"104","code":"1046","name":"Fasulye Horoz","category":"Bakliyat","imageUrl":"/products/big-horoz-fasulye579.webp"},{"id":"105","code":"1042","name":"Fasulye MaÅŸ","category":"Bakliyat","imageUrl":"/products/big-mas-fasulye-kg370.webp"},{"id":"106","code":"1043","name":"Fasulye Åeker","category":"Bakliyat","imageUrl":"/products/big-seker-fasulye-kg582.webp"},{"id":"107","code":"1021","name":"Mercimek KÄ±rmÄ±zÄ± Futbol","category":"Bakliyat","imageUrl":"/products/big-kirmizi-mercimek-kg427.webp"},{"id":"108","code":"1023","name":"Mercimek SarÄ±","category":"Bakliyat","imageUrl":"/products/big-sari-mercimek-kg170.webp"},{"id":"109","code":"1022","name":"Mercimek YeÅŸil","category":"Bakliyat","imageUrl":"/products/big-yesil-mercimek-kg163.webp"},{"id":"110","code":"1111","name":"MÄ±sÄ±r Popcorn","category":"Bakliyat","imageUrl":"/products/big-patlayan-misir-kg475.webp"},{"id":"111","code":"1112","name":"MÄ±sÄ±r YarmasÄ±","category":"Bakliyat","imageUrl":"/products/big-misir-yarmasi-kg307.webp"},{"id":"112","code":"1051","name":"Nohut Ä°ri Beyaz","category":"Bakliyat","imageUrl":"/products/big-beyaz-nohut-kg417.webp"},{"id":"113","code":"1052","name":"Nohut SarÄ±","category":"Bakliyat","imageUrl":"/products/big-nohut-kg326.webp"},{"id":"114","code":"1011","name":"PirinÃ§ Baldo","category":"Bakliyat","imageUrl":"/products/big-baldo-pirinc-kg489.webp"},{"id":"115","code":"1016","name":"PirinÃ§ Basmati Cella","category":"Bakliyat","imageUrl":"/products/big-basmati-pirinc-kg958.webp"},{"id":"116","code":"1013","name":"PirinÃ§ KÄ±rÄ±k","category":"Bakliyat","imageUrl":"/products/big-kirik-pirinc-kg155.webp"},{"id":"117","code":"1012","name":"PirinÃ§ OsmancÄ±k","category":"Bakliyat","imageUrl":"/products/big-osmancik-pirinc-kg711.webp"},{"id":"118","code":"1015","name":"PirinÃ§ Yerli PilavlÄ±k","category":"Bakliyat","imageUrl":"/products/big-yerli-pilavlik-pirinc-kg848.webp"},{"id":"119","code":"1161","name":"Tel Åehriye KavrulmuÅŸ","category":"Bakliyat","imageUrl":"/products/big-tel-sehriye-kg592.webp"},{"id":"121","code":"4081","name":"Crawberry KÄ±yÄ±lmÄ±ÅŸ","category":"Kuru Meyve","imageUrl":"/products/big-cranbery-dilimli-kg395.webp"},{"id":"122","code":"4072","name":"Erik Kurusu Ã‡ekirdeksiz","category":"Kuru Meyve","imageUrl":"/products/big-erik-kurusu-kg15.webp"},{"id":"123","code":"4051","name":"Dut Kurusu","category":"Kuru Meyve","imageUrl":"/products/big-dut-kurusu-kg824.webp"},{"id":"126","code":"4041","name":"Hurma Medine Mebrum","category":"Kuru Meyve","imageUrl":"/products/big-mebrum-hurma-kg39.webp"},{"id":"127","code":"4042","name":"Hurma Medjoul","category":"Kuru Meyve","imageUrl":"/products/big-kudus-medjoul-hurma-kg319.webp"},{"id":"128","code":"4101","name":"Ä°ÄŸde","category":"Kuru Meyve","imageUrl":"/products/igde.jpg"},{"id":"129","code":"4031","name":"Ä°ncir Naturel","category":"Kuru Meyve","imageUrl":"/products/incir-naturel.webp"},{"id":"130","code":"4030","name":"Ä°ncir KÄ±yÄ±lmÄ±ÅŸ","category":"Kuru Meyve","imageUrl":"/products/incir-kiyilmis.jpg"},{"id":"131","code":"4021","name":"KayÄ±sÄ± GÃ¼n Kurusu","category":"Kuru Meyve","imageUrl":"/products/big-gun-kurusu-kayisi-kg375.webp"},{"id":"133","code":"4022","name":"KayÄ±sÄ± SarÄ±","category":"Kuru Meyve","imageUrl":"/products/big-sari-kayisi-kg716.webp"},{"id":"134","code":"4025","name":"KayÄ±sÄ± KÄ±yÄ±lmÄ±ÅŸ","category":"Kuru Meyve","imageUrl":"/products/kayisi-kiyilmis.webp"},{"id":"135","code":"4091","name":"KeÃ§iboynuzu","category":"Kuru Meyve","imageUrl":"/products/keciboynuzu.jpg"},{"id":"136","code":"4011","name":"KuÅŸ ÃœzÃ¼mÃ¼","category":"Kuru Meyve","imageUrl":"/products/big-kus-uzumu-kg542.webp"},{"id":"137","code":"4012","name":"ÃœzÃ¼m Besni SarÄ±","category":"Kuru Meyve","imageUrl":"/products/big-besni-uzum-kg139.webp"},{"id":"138","code":"4014","name":"ÃœzÃ¼m Ä°zmir Ã‡ekirdeksiz","category":"Kuru Meyve","imageUrl":"/products/big-cekirdeksiz-izmir-uzum-kg74.webp"},{"id":"139","code":"4013","name":"ÃœzÃ¼m Siyah Ã‡ekirdekli","category":"Kuru Meyve","imageUrl":"/products/big-cekirdekli-siyah-uzum-kg986.webp"},{"id":"216","code":"4015","name":"ÃœzÃ¼m DalÄ±ndan Ã‡ekirdeksiz","category":"Kuru Meyve","imageUrl":"/products/big-uzum-dalindan-cekirdeksiz-kg851.jpg"},{"id":"140","code":"1211","name":"Ev MantÄ±sÄ±","category":"SofralÄ±k","imageUrl":"/products/ev-mantisi.jpg"},{"id":"141","code":"1212","name":"Tarhana","category":"SofralÄ±k","imageUrl":"/products/big-tarhana-kg592.webp"},{"id":"142","code":"8153","name":"Biber AcÄ± Toz","category":"Baharat","imageUrl":"/products/big-aci-toz-biber-kg906.webp"},{"id":"143","code":"8151","name":"Biber Ä°pek","category":"Baharat","imageUrl":"/products/big-ipek-biber-kg59.webp"},{"id":"144","code":"8155","name":"Biber Ä°sot","category":"Baharat","imageUrl":"/products/biber-isot.webp"},{"id":"145","code":"8154","name":"Biber TatlÄ± Toz","category":"Baharat","imageUrl":"/products/big-tatli-toz-biber-kg882.webp"},{"id":"146","code":"8152","name":"Biber YaÄŸlÄ± Pul","category":"Baharat","imageUrl":"/products/big-yagli-pul-biber-kg78.webp"},{"id":"147","code":"8091","name":"Ã‡Ã¶rekotu","category":"Baharat","imageUrl":"/products/big-corekotu-kg315.webp"},{"id":"148","code":"8042","name":"Karabiber Tane","category":"Baharat","imageUrl":"/products/big-tane-karabiber-kg320.webp"},{"id":"149","code":"8041","name":"Karabiber Toz","category":"Baharat","imageUrl":"/products/big-karabiber-kg879.webp"},{"id":"150","code":"8131","name":"Karbonat","category":"Baharat","imageUrl":"/products/big-karbonat-kg943.webp"},{"id":"151","code":"8051","name":"Kekik","category":"Baharat","imageUrl":"/products/big-kekik-kg792.webp"},{"id":"152","code":"8101","name":"Kimyon","category":"Baharat","imageUrl":"/products/big-kimyon-kg402.webp"},{"id":"153","code":"8161","name":"KÃ¶fte BaharatÄ±","category":"Baharat","imageUrl":"/products/big-kofte-baharati-kg304.webp"},{"id":"154","code":"8112","name":"Tavuk HarcÄ±","category":"Baharat","imageUrl":"/products/big-tavuk-cesnisi-kg781.webp"},{"id":"155","code":"8031","name":"KÃ¶ri","category":"Baharat","imageUrl":"/products/big-kori-kg403.webp"},{"id":"156","code":"8012","name":"Limon Tuzu Tane","category":"Baharat","imageUrl":"/products/big-tane-limon-tuzu-kg738.webp"},{"id":"157","code":"8011","name":"Limon Tuzu Toz","category":"Baharat","imageUrl":"/products/big-toz-limon-tuzu-kg408.webp"},{"id":"158","code":"8061","name":"Nane","category":"Baharat","imageUrl":"/products/big-nane-kg558.webp"},{"id":"159","code":"8022","name":"Sumak Tane","category":"Baharat","imageUrl":"/products/big-tane-sumak-kg37.webp"},{"id":"160","code":"8021","name":"Sumak Toz","category":"Baharat","imageUrl":"/products/big-sumak-kg822.webp"},{"id":"161","code":"8081","name":"Susam","category":"Baharat","imageUrl":"/products/big-susam-kg175.webp"},{"id":"162","code":"8121","name":"TarÃ§Ä±n Toz","category":"Baharat","imageUrl":"/products/big-tarcin-kg608.webp"},{"id":"163","code":"8111","name":"YeniBahar","category":"Baharat","imageUrl":"/products/big-yenibahar-kg771.webp"},{"id":"164","code":"8211","name":"Zencefil Toz","category":"Baharat","imageUrl":"/products/big-toz-zencefil-kg812.webp"},{"id":"165","code":"8221","name":"ZerdeÃ§al Toz","category":"Baharat","imageUrl":"/products/big-toz-zerdecal-kg352.webp"},{"id":"166","code":"3112","name":"FÄ±ndÄ±klÄ± Lokum Duble","category":"Lokum","imageUrl":"/products/big-duble-findikli-lokum-kg834.webp"},{"id":"167","code":"3121","name":"Lokum OsmanlÄ± Vali","category":"Lokum","imageUrl":"/products/big-vali-file-findikli-osmanli-lokum-kg737.webp"},{"id":"168","code":"3111","name":"Lokum FÄ±stÄ±klÄ± Duble","category":"Lokum","imageUrl":"/products/big-duble-fistikli-lokum-kg513.webp"},{"id":"210","code":"3061","name":"Lokum Kat Kat BÃ¶ÄŸÃ¼rtlenli","category":"Lokum","imageUrl":"/products/middle-lokum-kat-kat-bogurtlenli397.jpg"},{"id":"211","code":"3061","name":"Lokum Kat Kat Ã‡ilekli","category":"Lokum","imageUrl":"/products/middle-lokum-kat-kat-cilekli.jpg"},{"id":"212","code":"3061","name":"Lokum Kat Kat Karamelize","category":"Lokum","imageUrl":"/products/big-lokum-kat-kat-karamelize207.jpg"},{"id":"169","code":"3021","name":"Lokum PadiÅŸah NarlÄ±","category":"Lokum","imageUrl":"/products/big-narli-padisah-lokumu-kg-306.webp"},{"id":"170","code":"3020","name":"Lokum PadiÅŸah Sade","category":"Lokum","imageUrl":"/products/big-padisah-lokumu-kg257.webp"},{"id":"174","code":"1134","name":"Galeta Unu","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-galeta-unu-kg563.webp"},{"id":"175","code":"1381","name":"HaÅŸhaÅŸ Mavi","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-mavi-hashas-kg619.webp"},{"id":"176","code":"1371","name":"Hindistan Cevizi","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-hindistan-cevizi-kg646.webp"},{"id":"177","code":"1313","name":"Ä°rmik","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-irmik-kg118.webp"},{"id":"178","code":"1312","name":"MÄ±sÄ±r NiÅŸastasÄ±","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-misir-nisastasi-kg383.webp"},{"id":"179","code":"1135","name":"MÄ±sÄ±r Unu","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-misir-unu-kg452.webp"},{"id":"181","code":"1311","name":"Pudra Åekeri","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-pudra-sekeri-kg349.webp"},{"id":"182","code":"1113","name":"Toz Åeker","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-toz-seker-kg223.webp"},{"id":"183","code":"1141","name":"Un","category":"Un, Åeker ve PastacÄ±lÄ±k","imageUrl":"/products/big-un-kg623.webp"},{"id":"184","code":"1461","name":"Atom FÄ±ndÄ±klÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-atom-findikli-kg919.webp"},{"id":"185","code":"1451","name":"Cevizli Sucuk AÃ§Ä±k","category":"Pestil ve Sucuk","imageUrl":"/products/big-cevizli-sucuk-kg495.webp"},{"id":"186","code":"1452","name":"Cevizli Sucuk Vezir","category":"Pestil ve Sucuk","imageUrl":"/products/big-cevizli-vezir-sucuk-kg569.webp"},{"id":"187","code":"1492","name":"Cezerye NarlÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-narli-cezerye-kg732.webp"},{"id":"188","code":"1471","name":"KÃ¶me Cevizli","category":"Pestil ve Sucuk","imageUrl":"/products/big-cevizli-kome-kg661.webp"},{"id":"189","code":"1441","name":"KÃ¶me PikolalÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-pikolali-kome-kg406.webp"},{"id":"190","code":"1422","name":"Muska FÄ±ndÄ±klÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-findikli-muska-kg334.webp"},{"id":"191","code":"1421","name":"Muska Sade","category":"Pestil ve Sucuk","imageUrl":"/products/sade-muska.webp"},{"id":"192","code":"1432","name":"Pestil FÄ±ndÄ±klÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-findikli-pestil-kg803.webp"},{"id":"193","code":"1431","name":"Pestil Sade","category":"Pestil ve Sucuk","imageUrl":"/products/big-sade-pestil-kg781.webp"},{"id":"195","code":"1434","name":"Pestil TatlÄ±sÄ± FÄ±ndÄ±klÄ±","category":"Pestil ve Sucuk","imageUrl":"/products/big-findikli-pestil-tatlisi-kg846.webp"},{"id":"196","code":"1436","name":"Pestil TatlÄ±sÄ± Parmak","category":"Pestil ve Sucuk","imageUrl":"/products/big-rulo-pestil-tatlisi-kg289.webp"},{"id":"197","code":"1121","name":"Jelly yumuÅŸak ÅŸeker","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jelly-yumusak-seker-kg186.webp"},{"id":"199","code":"1123","name":"JÃ¶le Åeker","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jole-seker-kg710.webp"},{"id":"200","code":"8225","name":"Jellybig","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jellybig-super-kola-kg370.webp"},{"id":"202","code":"1128","name":"JÃ¶leberry","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-joleberry948.webp"},{"id":"203","code":"1125","name":"Jelirop","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jelirop-kg591.webp"},{"id":"204","code":"6033","name":"Kahve KremasÄ±","category":"Kahve","imageUrl":"/products/big-kahve-kremasi-kg712.webp"},{"id":"205","code":"7081","name":"Draje Badem renkli","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-cikolatali-badem-draje-kg343.webp"},{"id":"206","code":"7071","name":"Draje Ã§akÄ±ltaÅŸÄ±","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-draje-cakiltasi-kg818.webp"},{"id":"207","code":"7041","name":"Draje Bonibon","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-draje-bonibon-kg564.webp"},{"id":"208","code":"7214","name":"Draje Ã‡ikolata Rengarenk","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-draje-cikolata-rengarenk205.webp"},{"id":"215","code":"7056","name":"Hurma Ezmesi FÄ±stÄ±klÄ±","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-hurma-ezmesi-fistikli-kg453.jpg"},{"id":"217","code":"4004","name":"Cevizli Sucuk Kelebek","category":"Pestil ve Sucuk","imageUrl":"/products/kelebek-cevizli-sucuk-f8a715.jpg"},{"id":"218","code":"2136","name":"Kabak Karbeyaz","category":"KuruyemiÅŸ","imageUrl":"/products/kabak-karbeyaz.webp"},{"id":"219","code":"8223","name":"Kaju FÄ±rÄ±ndan","category":"KuruyemiÅŸ","imageUrl":"/products/big-kaju-firindan-kg555-1.jpg"},{"id":"220","code":"2082","name":"Kokteyl Naturel","category":"KuruyemiÅŸ","imageUrl":"/products/kokteyl-naturel-2162-karisik-cerez-halktan-8657-21-B.jpg"},{"id":"221","code":"7013","name":"Draje Ã‡ikolata FildiÅŸi","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-fildisi-cikolatali-findik-draje-kg528.jpg"},{"id":"222","code":"7017","name":"Draje Ã‡ikolata Bitter","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-bitter-cikolatali-findik-draje-kg701.jpg"},{"id":"223","code":"1002","name":"Tropi Frutti YumuÅŸak Åeker","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-tropifrutti-karisik-yumusak-sekerleme464-1.jpg"},{"id":"224","code":"1025","name":"Jelly EkÅŸi Mix","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jelly-eksi-mix-1.jpg"},{"id":"225","code":"7121","name":"Toptop SakÄ±z","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/toptop-sakiz-2270-toptop-seker-halktan-8588-22-B.jpg"},{"id":"226","code":"1001","name":"Softbons YumuÅŸak Åeker","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-softbons-yumusak-seker-kg456.jpg"},{"id":"227","code":"7083","name":"Draje Kaju","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-spesiyal-kajulu-draje-kg618.jpg"},{"id":"228","code":"7014","name":"Draje Portakal Bitter","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/portakal-draje.jpg"},{"id":"229","code":"7033","name":"Roll in Love Mix","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/roll-in-love-mix.jpg"},{"id":"230","code":"7088","name":"Draje Biskrem","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/small-draje-biskrem906.jpg"},{"id":"231","code":"7215","name":"Mini Kornet","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/mini-kornet.webp"},{"id":"232","code":"7026","name":"FÄ±ndÄ±klÄ± Top Gofret","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/findikli-top-gofret.avif"},{"id":"233","code":"7057","name":"AltÄ±n Para","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-altin-para-kg20.jpg"},{"id":"234","code":"7025","name":"Choco Wafer","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/chocowafer.jpg"},{"id":"235","code":"1122","name":"Jellycik","category":"SakÄ±z ve Åekerlemeler","imageUrl":"/products/big-jellycik-kg284.jpg"},{"id":"236","code":"3002","name":"Lokum Sultan Ã‡ilekli Duble","category":"Lokum","imageUrl":"/products/toz-fistikli-cilekli-sultan-lokumu.webp"},{"id":"237","code":"4061","name":"Kuru Meyve Tropik Mix","category":"Kuru Meyve","imageUrl":"/products/big-kurumeyve-tropik-mix-574-1.jpg"},{"id":"238","code":"7084","name":"Draje BiskÃ¼vit","category":"Ã‡ikolata ve KaplamalÄ± ÃœrÃ¼nler","imageUrl":"/products/big-biskuvi-draje-kg650.jpg"},{"id":"239","code":"2020","name":"Åehzade Yer FÄ±stÄ±klÄ±","category":"Lokum","imageUrl":"/products/big-lokum-sehzade-kg539.jpg"},{"id":"240","code":"2086","name":"Kokteyl Premium","imageUrl":"assets/products/kokteyl-ekstra-luks-2184-karisik-cerez-halktan-8790-21-O.jpg","category":"Kuruyemiş"}]
+[
+  {
+    "id": "1",
+    "code": "2071",
+    "name": "Kaju Çiğ",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-cig-kaju-kg888.webp"
+  },
+  {
+    "id": "2",
+    "code": "2072",
+    "name": "Kaju Kavrulmuş",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-kaju-kg833.webp"
+  },
+  {
+    "id": "3",
+    "code": "2063",
+    "name": "Badem Kavrulmuş",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-kavrulmus-badem-kg862.webp"
+  },
+  {
+    "id": "4",
+    "code": "2103",
+    "name": "Ceviz İçi Özel",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-ozel-ceviz-ici-kg449.webp"
+  },
+  {
+    "id": "5",
+    "code": "2021",
+    "name": "Fındık Kavrulmuş",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-kavrulmus-findik-kg974.webp"
+  },
+  {
+    "id": "6",
+    "code": "2111",
+    "name": "Soslu Mısır",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-soslu-misir-kg178.webp"
+  },
+  {
+    "id": "7",
+    "code": "2027",
+    "name": "Makademya Fındık Kavrulmuş",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-makademya-findik-kavrulmus689.webp"
+  },
+  {
+    "id": "8",
+    "code": "2151",
+    "name": "Kokteyl Lüks",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-kokteyl-luks-kg372.webp"
+  },
+  {
+    "id": "9",
+    "code": "6031",
+    "name": "Türk Kahvesi",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-turk-kahvesi-kg961.webp"
+  },
+  {
+    "id": "10",
+    "code": "2012",
+    "name": "Fıstık Antep",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-antep-fistigi-kg886.webp"
+  },
+  {
+    "id": "11",
+    "code": "2081",
+    "name": "Kokteyl Atıştır",
+    "category": "Çok Satanlar",
+    "imageUrl": "/products/big-kokteyl-atistir339.webp"
+  },
+  {
+    "id": "12",
+    "code": "3114",
+    "name": "Lokum Cennet Fitil Fındıklı Narlı",
+    "category": "Yeni Gelenler",
+    "imageUrl": "/products/big-lokum-cennet-fitil-findikli-sade-kg615.webp"
+  },
+  {
+    "id": "16",
+    "code": "3114",
+    "name": "Lokum Cennet Fitil Fındıklı Sade",
+    "category": "Yeni Gelenler",
+    "imageUrl": "/products/big-lokum-cennet-fitil-findikli-sade-kg615.webp"
+  },
+  {
+    "id": "17",
+    "code": "3114",
+    "name": "Lokum Cennet Fitil Fındıklı Portakallı",
+    "category": "Yeni Gelenler",
+    "imageUrl": "/products/big-lokum-cennet-fitil-findikli-portakalli-kg414.webp"
+  },
+  {
+    "id": "18",
+    "code": "3114",
+    "name": "Lokum Cennet Fitil Fındıklı Karadutlu",
+    "category": "Yeni Gelenler",
+    "imageUrl": "/products/big-lokum-cennet-fitil-findikli-karadutlu-kg694.webp"
+  },
+  {
+    "id": "21",
+    "code": "7068",
+    "name": "Karamelli Çikolata",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-karamelli-cikolata-kg52.webp"
+  },
+  {
+    "id": "22",
+    "code": "7216",
+    "name": "Slimfoods Bar",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-slimfoods-bar-kg686.webp"
+  },
+  {
+    "id": "23",
+    "code": "3023",
+    "name": "Lokum Narlı Zengin Duble",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-lokum-narli-zengin-duble336.webp"
+  },
+  {
+    "id": "24",
+    "code": "7054",
+    "name": "Cocony Hindistan Cevizli Bar",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-cocony-hindistan-cevizli-bar-kg591.webp"
+  },
+  {
+    "id": "25",
+    "code": "1203",
+    "name": "Jölelop",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jolelop255.webp"
+  },
+  {
+    "id": "26",
+    "code": "1121",
+    "name": "Jelly Yumuşak Şeker",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-jelly-yumusak-seker-kg186.webp"
+  },
+  {
+    "id": "27",
+    "code": "3128",
+    "name": "Çikolata Kaplı Lokum",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-cikolatali-lokum-kg703.webp"
+  },
+  {
+    "id": "28",
+    "code": "3120",
+    "name": "Fıstıklı Sütlü Lokum Duble",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-duble-fistikli-sutlu-lokum-kg380.webp"
+  },
+  {
+    "id": "29",
+    "code": "3112",
+    "name": "Fındıklı Lokum Duble",
+    "category": "Atıştırmalıklar",
+    "imageUrl": "/products/big-duble-findikli-lokum-kg834.webp"
+  },
+  {
+    "id": "31",
+    "code": "1491",
+    "name": "Cezerye",
+    "category": "Öne Çıkanlar",
+    "imageUrl": "/products/big-cezerye-kg47.jpg"
+  },
+  {
+    "id": "32",
+    "code": "7012",
+    "name": "Sütlü Çikolatalı Fındık Draje",
+    "category": "Öne Çıkanlar",
+    "imageUrl": "/products/big-sutlu-cikolatali-findik-draje-kg387.webp"
+  },
+  {
+    "id": "38",
+    "code": "6032",
+    "name": "Gold Kahve",
+    "category": "Bir Yudum Mutluluk",
+    "imageUrl": "/products/big-gold-kahve-kg668.webp"
+  },
+  {
+    "id": "40",
+    "code": "7051",
+    "name": "Badem Şekeri",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-badem-sekeri-kg946.webp"
+  },
+  {
+    "id": "41",
+    "code": "7042",
+    "name": "Yöresel Badem Şekeri",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-yoresel-badem-sekeri.webp"
+  },
+  {
+    "id": "42",
+    "code": "3100",
+    "name": "Lokum Güllü",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-gullu-lokum-kg394.webp"
+  },
+  {
+    "id": "43",
+    "code": "3100",
+    "name": "Kuş Lokumu",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-kus-lokumu-kg635.webp"
+  },
+  {
+    "id": "44",
+    "code": "3100",
+    "name": "Lokum Sade",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-sade-lokum-kg449.webp"
+  },
+  {
+    "id": "45",
+    "code": "2078",
+    "name": "Kokteyl Maksimum",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-kokteyl-maksimum830.webp"
+  },
+  {
+    "id": "46",
+    "code": "2153",
+    "name": "Kokteyl Gurme",
+    "category": "Düğün Paketleri",
+    "imageUrl": "/products/big-kokteyl-gurme-kg446.webp"
+  },
+  {
+    "id": "50",
+    "code": "5111",
+    "name": "Yulaf Ezmesi",
+    "category": "Sağlıklı Kal",
+    "imageUrl": "/products/big-yulaf-ezmesi-kg467.webp"
+  },
+  {
+    "id": "52",
+    "code": "2061",
+    "name": "Badem İçi Çiğ",
+    "category": "Sağlıklı Kal",
+    "imageUrl": "/products/big-cig-badem-ici-kg9.webp"
+  },
+  {
+    "id": "53",
+    "code": "2044",
+    "name": "Ayçekirdek Siyah Tuzsuz",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzsuz-siyah-aycekirdek-kg75.webp"
+  },
+  {
+    "id": "54",
+    "code": "2043",
+    "name": "Ayçekirdek Siyah Uzun",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzlu-siyah-aycekirdek-kg296.webp"
+  },
+  {
+    "id": "57",
+    "code": "2101",
+    "name": "Ceviz Kabuklu",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-california-kabuklu-ceviz-kg708.webp"
+  },
+  {
+    "id": "58",
+    "code": "2132",
+    "name": "Cips Ballı Susam",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-balli-susamli-cips-kg861.webp"
+  },
+  {
+    "id": "59",
+    "code": "2057",
+    "name": "Cips Fıstık",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-cips-fistik-kg543.webp"
+  },
+  {
+    "id": "60",
+    "code": "2131",
+    "name": "Cips Şapkalı",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-sapkali-cips-kg642.webp"
+  },
+  {
+    "id": "61",
+    "code": "2133",
+    "name": "Cips Tırtıl",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tirtil-cips-kg464.webp"
+  },
+  {
+    "id": "213",
+    "code": "2134",
+    "name": "Cips Piramit Süt Mısır",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/piramit.webp"
+  },
+  {
+    "id": "214",
+    "code": "2135",
+    "name": "Cips Makarna Ketçap",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-ketcap-aromali-makarna-cipsi.jpg"
+  },
+  {
+    "id": "62",
+    "code": "2022",
+    "name": "Fındık İçi Çiğ",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-cig-findik-kg545.webp"
+  },
+  {
+    "id": "63",
+    "code": "2023",
+    "name": "Fındık Kabuklu",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabuklu-findik-kg425.webp"
+  },
+  {
+    "id": "209",
+    "code": "2029",
+    "name": "Kabuklu Kavrulmuş Makademya Fındığı",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabuklu-kavrulmus-makademya-findigi394.jpg"
+  },
+  {
+    "id": "64",
+    "code": "2026",
+    "name": "Fındık tuzlu kavrulmuş",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzlu-kavrulmus-findik-kg847.webp"
+  },
+  {
+    "id": "65",
+    "code": "2051",
+    "name": "Fıstık Kabuklu",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabuklu-fistik-kg237.webp"
+  },
+  {
+    "id": "66",
+    "code": "2054",
+    "name": "Fıstık Kendy",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/fistik-kendy-2150-fistik-halktan-8669-21-B.jpg"
+  },
+  {
+    "id": "67",
+    "code": "2011",
+    "name": "Fıstık Siirt",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-siirt-fistigi-kg238.webp"
+  },
+  {
+    "id": "68",
+    "code": "2056",
+    "name": "Fıstık Soslu",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-soslu-fistik-kg849.webp"
+  },
+  {
+    "id": "69",
+    "code": "2059",
+    "name": "Fıstık Tango",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tango-fistik-kg544.webp"
+  },
+  {
+    "id": "70",
+    "code": "2055",
+    "name": "Fıstık Toppy",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-toppy-fistik-kg657.webp"
+  },
+  {
+    "id": "71",
+    "code": "2053",
+    "name": "Fıstık Tuzlu Lüks",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzlu-fistik-kg368.webp"
+  },
+  {
+    "id": "72",
+    "code": "2052",
+    "name": "Fıstık Tuzsuz Lüks",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzsuz-fistik-kg144.webp"
+  },
+  {
+    "id": "73",
+    "code": "2031",
+    "name": "Kabak Çifte Nevşehir",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-cifte-kavrulmus-kabak-cekirdegi-kg892.webp"
+  },
+  {
+    "id": "74",
+    "code": "2035",
+    "name": "Kabak İçi Çiğ",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabak-cekirdegi-ici-kg935.webp"
+  },
+  {
+    "id": "75",
+    "code": "2032",
+    "name": "Kabak Nevşehir",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kabak-cekirdegi-kg363.webp"
+  },
+  {
+    "id": "76",
+    "code": "2033",
+    "name": "Kabak Edirne",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-cifte-kavrulmus-sivri-kabak-cekirdegi-kg257.webp"
+  },
+  {
+    "id": "77",
+    "code": "2034",
+    "name": "Kabak Tuzsuz",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-tuzsuz-kabak-cekirdegi-kg977.webp"
+  },
+  {
+    "id": "78",
+    "code": "2084",
+    "name": "Kokteyl eko Enerji",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kokteyl-enerji-kg301.webp"
+  },
+  {
+    "id": "79",
+    "code": "2094",
+    "name": "Leblebi Beyaz Duble",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-duble-beyaz-leblebi-kg608.webp"
+  },
+  {
+    "id": "81",
+    "code": "2091",
+    "name": "Çıtır Çerez",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-citir-leblebi-sari-kg248.jpg"
+  },
+  {
+    "id": "82",
+    "code": "2098",
+    "name": "Leblebi Natural Köy",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-koy-leblebisi-kg231.webp"
+  },
+  {
+    "id": "83",
+    "code": "2092",
+    "name": "Leblebi Sarı Duble",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-duble-sari-leblebi-kg527.webp"
+  },
+  {
+    "id": "84",
+    "code": "2097",
+    "name": "Leblebi Şeker Beyaz",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-leblebi-sekeri-beyaz-kg899.webp"
+  },
+  {
+    "id": "85",
+    "code": "2096",
+    "name": "Leblebi Şeker Renkli",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-leblebi-sekeri-renkli-kg428.webp"
+  },
+  {
+    "id": "86",
+    "code": "2093",
+    "name": "Leblebi Tuzlu Duble",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-duble-tuzlu-leblebi-kg895.webp"
+  },
+  {
+    "id": "87",
+    "code": "2121",
+    "name": "Karpuz Çekirdeği",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kavrulmus-karpuz-cekirdegi-kg818.webp"
+  },
+  {
+    "id": "89",
+    "code": "1081",
+    "name": "Bakla İç",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-bakla-ici-kg543.webp"
+  },
+  {
+    "id": "90",
+    "code": "1082",
+    "name": "Bakla Kabuklu",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-kabuklu-bakla-kg843.webp"
+  },
+  {
+    "id": "91",
+    "code": "1071",
+    "name": "Barbunya Kiraz",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-barbunya-kg264.webp"
+  },
+  {
+    "id": "92",
+    "code": "1101",
+    "name": "Börülce",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-borulce-kg426.webp"
+  },
+  {
+    "id": "93",
+    "code": "1061",
+    "name": "Aşurelik Buğday",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-asurelik-bugday-kg466.webp"
+  },
+  {
+    "id": "94",
+    "code": "1038",
+    "name": "Bulgur Başbaşı",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-basbasi-bulgur-kg21.webp"
+  },
+  {
+    "id": "95",
+    "code": "1035",
+    "name": "Bulgur Esmer Köftelik",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-esmer-koftelik-bulgur-kg271.webp"
+  },
+  {
+    "id": "96",
+    "code": "1034",
+    "name": "Bulgur Esmer Pilavlık",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-pilavlik-bulgur-kg947.webp"
+  },
+  {
+    "id": "97",
+    "code": "1031",
+    "name": "Bulgur Köftelik",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-koftelik-bulgur-kg644.webp"
+  },
+  {
+    "id": "98",
+    "code": "1033",
+    "name": "Bulgur Midyat",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-midyat-bulgur-kg279.webp"
+  },
+  {
+    "id": "99",
+    "code": "1032",
+    "name": "Bulgur Pilavlık",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-pilavlik-bulgur-kg947.webp"
+  },
+  {
+    "id": "100",
+    "code": "1037",
+    "name": "Bulgur Seferkitel",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-seferkitel-bulgur-kg358.webp"
+  },
+  {
+    "id": "101",
+    "code": "1036",
+    "name": "Bulgur Şehriyeli",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-sehriyeli-bulgur-kg169.webp"
+  },
+  {
+    "id": "102",
+    "code": "1044",
+    "name": "Fasulye Bombay",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-bombay-fasulye-kg95.webp"
+  },
+  {
+    "id": "103",
+    "code": "1045",
+    "name": "Fasulye Dermason",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-dermason-fasulye-kg983.webp"
+  },
+  {
+    "id": "104",
+    "code": "1046",
+    "name": "Fasulye Horoz",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-horoz-fasulye579.webp"
+  },
+  {
+    "id": "105",
+    "code": "1042",
+    "name": "Fasulye Maş",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-mas-fasulye-kg370.webp"
+  },
+  {
+    "id": "106",
+    "code": "1043",
+    "name": "Fasulye Şeker",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-seker-fasulye-kg582.webp"
+  },
+  {
+    "id": "107",
+    "code": "1021",
+    "name": "Mercimek Kırmızı Futbol",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-kirmizi-mercimek-kg427.webp"
+  },
+  {
+    "id": "108",
+    "code": "1023",
+    "name": "Mercimek Sarı",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-sari-mercimek-kg170.webp"
+  },
+  {
+    "id": "109",
+    "code": "1022",
+    "name": "Mercimek Yeşil",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-yesil-mercimek-kg163.webp"
+  },
+  {
+    "id": "110",
+    "code": "1111",
+    "name": "Mısır Popcorn",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-patlayan-misir-kg475.webp"
+  },
+  {
+    "id": "111",
+    "code": "1112",
+    "name": "Mısır Yarması",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-misir-yarmasi-kg307.webp"
+  },
+  {
+    "id": "112",
+    "code": "1051",
+    "name": "Nohut İri Beyaz",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-beyaz-nohut-kg417.webp"
+  },
+  {
+    "id": "113",
+    "code": "1052",
+    "name": "Nohut Sarı",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-nohut-kg326.webp"
+  },
+  {
+    "id": "114",
+    "code": "1011",
+    "name": "Pirinç Baldo",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-baldo-pirinc-kg489.webp"
+  },
+  {
+    "id": "115",
+    "code": "1016",
+    "name": "Pirinç Basmati Cella",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-basmati-pirinc-kg958.webp"
+  },
+  {
+    "id": "116",
+    "code": "1013",
+    "name": "Pirinç Kırık",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-kirik-pirinc-kg155.webp"
+  },
+  {
+    "id": "117",
+    "code": "1012",
+    "name": "Pirinç Osmancık",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-osmancik-pirinc-kg711.webp"
+  },
+  {
+    "id": "118",
+    "code": "1015",
+    "name": "Pirinç Yerli Pilavlık",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-yerli-pilavlik-pirinc-kg848.webp"
+  },
+  {
+    "id": "119",
+    "code": "1161",
+    "name": "Tel Şehriye Kavrulmuş",
+    "category": "Bakliyat",
+    "imageUrl": "/products/big-tel-sehriye-kg592.webp"
+  },
+  {
+    "id": "121",
+    "code": "4081",
+    "name": "Crawberry Kıyılmış",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-cranbery-dilimli-kg395.webp"
+  },
+  {
+    "id": "122",
+    "code": "4072",
+    "name": "Erik Kurusu Çekirdeksiz",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-erik-kurusu-kg15.webp"
+  },
+  {
+    "id": "123",
+    "code": "4051",
+    "name": "Dut Kurusu",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-dut-kurusu-kg824.webp"
+  },
+  {
+    "id": "126",
+    "code": "4041",
+    "name": "Hurma Medine Mebrum",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-mebrum-hurma-kg39.webp"
+  },
+  {
+    "id": "127",
+    "code": "4042",
+    "name": "Hurma Medjoul",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-kudus-medjoul-hurma-kg319.webp"
+  },
+  {
+    "id": "128",
+    "code": "4101",
+    "name": "İğde",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/igde.jpg"
+  },
+  {
+    "id": "129",
+    "code": "4031",
+    "name": "İncir Naturel",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/incir-naturel.webp"
+  },
+  {
+    "id": "130",
+    "code": "4030",
+    "name": "İncir Kıyılmış",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/incir-kiyilmis.jpg"
+  },
+  {
+    "id": "131",
+    "code": "4021",
+    "name": "Kayısı Gün Kurusu",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-gun-kurusu-kayisi-kg375.webp"
+  },
+  {
+    "id": "133",
+    "code": "4022",
+    "name": "Kayısı Sarı",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-sari-kayisi-kg716.webp"
+  },
+  {
+    "id": "134",
+    "code": "4025",
+    "name": "Kayısı Kıyılmış",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/kayisi-kiyilmis.webp"
+  },
+  {
+    "id": "135",
+    "code": "4091",
+    "name": "Keçiboynuzu",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/keciboynuzu.jpg"
+  },
+  {
+    "id": "136",
+    "code": "4011",
+    "name": "Kuş Üzümü",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-kus-uzumu-kg542.webp"
+  },
+  {
+    "id": "137",
+    "code": "4012",
+    "name": "Üzüm Besni Sarı",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-besni-uzum-kg139.webp"
+  },
+  {
+    "id": "138",
+    "code": "4014",
+    "name": "Üzüm İzmir Çekirdeksiz",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-cekirdeksiz-izmir-uzum-kg74.webp"
+  },
+  {
+    "id": "139",
+    "code": "4013",
+    "name": "Üzüm Siyah Çekirdekli",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-cekirdekli-siyah-uzum-kg986.webp"
+  },
+  {
+    "id": "216",
+    "code": "4015",
+    "name": "Üzüm Dalından Çekirdeksiz",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-uzum-dalindan-cekirdeksiz-kg851.jpg"
+  },
+  {
+    "id": "140",
+    "code": "1211",
+    "name": "Ev Mantısı",
+    "category": "Sofralık",
+    "imageUrl": "/products/ev-mantisi.jpg"
+  },
+  {
+    "id": "141",
+    "code": "1212",
+    "name": "Tarhana",
+    "category": "Sofralık",
+    "imageUrl": "/products/big-tarhana-kg592.webp"
+  },
+  {
+    "id": "142",
+    "code": "8153",
+    "name": "Biber Acı Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-aci-toz-biber-kg906.webp"
+  },
+  {
+    "id": "143",
+    "code": "8151",
+    "name": "Biber İpek",
+    "category": "Baharat",
+    "imageUrl": "/products/big-ipek-biber-kg59.webp"
+  },
+  {
+    "id": "144",
+    "code": "8155",
+    "name": "Biber İsot",
+    "category": "Baharat",
+    "imageUrl": "/products/biber-isot.webp"
+  },
+  {
+    "id": "145",
+    "code": "8154",
+    "name": "Biber Tatlı Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tatli-toz-biber-kg882.webp"
+  },
+  {
+    "id": "146",
+    "code": "8152",
+    "name": "Biber Yağlı Pul",
+    "category": "Baharat",
+    "imageUrl": "/products/big-yagli-pul-biber-kg78.webp"
+  },
+  {
+    "id": "147",
+    "code": "8091",
+    "name": "Çörekotu",
+    "category": "Baharat",
+    "imageUrl": "/products/big-corekotu-kg315.webp"
+  },
+  {
+    "id": "148",
+    "code": "8042",
+    "name": "Karabiber Tane",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tane-karabiber-kg320.webp"
+  },
+  {
+    "id": "149",
+    "code": "8041",
+    "name": "Karabiber Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-karabiber-kg879.webp"
+  },
+  {
+    "id": "150",
+    "code": "8131",
+    "name": "Karbonat",
+    "category": "Baharat",
+    "imageUrl": "/products/big-karbonat-kg943.webp"
+  },
+  {
+    "id": "151",
+    "code": "8051",
+    "name": "Kekik",
+    "category": "Baharat",
+    "imageUrl": "/products/big-kekik-kg792.webp"
+  },
+  {
+    "id": "152",
+    "code": "8101",
+    "name": "Kimyon",
+    "category": "Baharat",
+    "imageUrl": "/products/big-kimyon-kg402.webp"
+  },
+  {
+    "id": "153",
+    "code": "8161",
+    "name": "Köfte Baharatı",
+    "category": "Baharat",
+    "imageUrl": "/products/big-kofte-baharati-kg304.webp"
+  },
+  {
+    "id": "154",
+    "code": "8112",
+    "name": "Tavuk Harcı",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tavuk-cesnisi-kg781.webp"
+  },
+  {
+    "id": "155",
+    "code": "8031",
+    "name": "Köri",
+    "category": "Baharat",
+    "imageUrl": "/products/big-kori-kg403.webp"
+  },
+  {
+    "id": "156",
+    "code": "8012",
+    "name": "Limon Tuzu Tane",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tane-limon-tuzu-kg738.webp"
+  },
+  {
+    "id": "157",
+    "code": "8011",
+    "name": "Limon Tuzu Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-toz-limon-tuzu-kg408.webp"
+  },
+  {
+    "id": "158",
+    "code": "8061",
+    "name": "Nane",
+    "category": "Baharat",
+    "imageUrl": "/products/big-nane-kg558.webp"
+  },
+  {
+    "id": "159",
+    "code": "8022",
+    "name": "Sumak Tane",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tane-sumak-kg37.webp"
+  },
+  {
+    "id": "160",
+    "code": "8021",
+    "name": "Sumak Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-sumak-kg822.webp"
+  },
+  {
+    "id": "161",
+    "code": "8081",
+    "name": "Susam",
+    "category": "Baharat",
+    "imageUrl": "/products/big-susam-kg175.webp"
+  },
+  {
+    "id": "162",
+    "code": "8121",
+    "name": "Tarçın Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-tarcin-kg608.webp"
+  },
+  {
+    "id": "163",
+    "code": "8111",
+    "name": "YeniBahar",
+    "category": "Baharat",
+    "imageUrl": "/products/big-yenibahar-kg771.webp"
+  },
+  {
+    "id": "164",
+    "code": "8211",
+    "name": "Zencefil Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-toz-zencefil-kg812.webp"
+  },
+  {
+    "id": "165",
+    "code": "8221",
+    "name": "Zerdeçal Toz",
+    "category": "Baharat",
+    "imageUrl": "/products/big-toz-zerdecal-kg352.webp"
+  },
+  {
+    "id": "166",
+    "code": "3112",
+    "name": "Fındıklı Lokum Duble",
+    "category": "Lokum",
+    "imageUrl": "/products/big-duble-findikli-lokum-kg834.webp"
+  },
+  {
+    "id": "167",
+    "code": "3121",
+    "name": "Lokum Osmanlı Vali",
+    "category": "Lokum",
+    "imageUrl": "/products/big-vali-file-findikli-osmanli-lokum-kg737.webp"
+  },
+  {
+    "id": "168",
+    "code": "3111",
+    "name": "Lokum Fıstıklı Duble",
+    "category": "Lokum",
+    "imageUrl": "/products/big-duble-fistikli-lokum-kg513.webp"
+  },
+  {
+    "id": "210",
+    "code": "3061",
+    "name": "Lokum Kat Kat Böğürtlenli",
+    "category": "Lokum",
+    "imageUrl": "/products/middle-lokum-kat-kat-bogurtlenli397.jpg"
+  },
+  {
+    "id": "211",
+    "code": "3061",
+    "name": "Lokum Kat Kat Çilekli",
+    "category": "Lokum",
+    "imageUrl": "/products/middle-lokum-kat-kat-cilekli.jpg"
+  },
+  {
+    "id": "212",
+    "code": "3061",
+    "name": "Lokum Kat Kat Karamelize",
+    "category": "Lokum",
+    "imageUrl": "/products/big-lokum-kat-kat-karamelize207.jpg"
+  },
+  {
+    "id": "169",
+    "code": "3021",
+    "name": "Lokum Padişah Narlı",
+    "category": "Lokum",
+    "imageUrl": "/products/big-narli-padisah-lokumu-kg-306.webp"
+  },
+  {
+    "id": "170",
+    "code": "3020",
+    "name": "Lokum Padişah Sade",
+    "category": "Lokum",
+    "imageUrl": "/products/big-padisah-lokumu-kg257.webp"
+  },
+  {
+    "id": "174",
+    "code": "1134",
+    "name": "Galeta Unu",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-galeta-unu-kg563.webp"
+  },
+  {
+    "id": "175",
+    "code": "1381",
+    "name": "Haşhaş Mavi",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-mavi-hashas-kg619.webp"
+  },
+  {
+    "id": "176",
+    "code": "1371",
+    "name": "Hindistan Cevizi",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-hindistan-cevizi-kg646.webp"
+  },
+  {
+    "id": "177",
+    "code": "1313",
+    "name": "İrmik",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-irmik-kg118.webp"
+  },
+  {
+    "id": "178",
+    "code": "1312",
+    "name": "Mısır Nişastası",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-misir-nisastasi-kg383.webp"
+  },
+  {
+    "id": "179",
+    "code": "1135",
+    "name": "Mısır Unu",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-misir-unu-kg452.webp"
+  },
+  {
+    "id": "181",
+    "code": "1311",
+    "name": "Pudra Şekeri",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-pudra-sekeri-kg349.webp"
+  },
+  {
+    "id": "182",
+    "code": "1113",
+    "name": "Toz Şeker",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-toz-seker-kg223.webp"
+  },
+  {
+    "id": "183",
+    "code": "1141",
+    "name": "Un",
+    "category": "Un, Şeker ve Pastacılık",
+    "imageUrl": "/products/big-un-kg623.webp"
+  },
+  {
+    "id": "184",
+    "code": "1461",
+    "name": "Atom Fındıklı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-atom-findikli-kg919.webp"
+  },
+  {
+    "id": "185",
+    "code": "1451",
+    "name": "Cevizli Sucuk Açık",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-cevizli-sucuk-kg495.webp"
+  },
+  {
+    "id": "186",
+    "code": "1452",
+    "name": "Cevizli Sucuk Vezir",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-cevizli-vezir-sucuk-kg569.webp"
+  },
+  {
+    "id": "187",
+    "code": "1492",
+    "name": "Cezerye Narlı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-narli-cezerye-kg732.webp"
+  },
+  {
+    "id": "188",
+    "code": "1471",
+    "name": "Köme Cevizli",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-cevizli-kome-kg661.webp"
+  },
+  {
+    "id": "189",
+    "code": "1441",
+    "name": "Köme Pikolalı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-pikolali-kome-kg406.webp"
+  },
+  {
+    "id": "190",
+    "code": "1422",
+    "name": "Muska Fındıklı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-findikli-muska-kg334.webp"
+  },
+  {
+    "id": "191",
+    "code": "1421",
+    "name": "Muska Sade",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/sade-muska.webp"
+  },
+  {
+    "id": "192",
+    "code": "1432",
+    "name": "Pestil Fındıklı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-findikli-pestil-kg803.webp"
+  },
+  {
+    "id": "193",
+    "code": "1431",
+    "name": "Pestil Sade",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-sade-pestil-kg781.webp"
+  },
+  {
+    "id": "195",
+    "code": "1434",
+    "name": "Pestil Tatlısı Fındıklı",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-findikli-pestil-tatlisi-kg846.webp"
+  },
+  {
+    "id": "196",
+    "code": "1436",
+    "name": "Pestil Tatlısı Parmak",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/big-rulo-pestil-tatlisi-kg289.webp"
+  },
+  {
+    "id": "197",
+    "code": "1121",
+    "name": "Jelly yumuşak şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jelly-yumusak-seker-kg186.webp"
+  },
+  {
+    "id": "199",
+    "code": "1123",
+    "name": "Jöle Şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jole-seker-kg710.webp"
+  },
+  {
+    "id": "200",
+    "code": "8225",
+    "name": "Jellybig",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jellybig-super-kola-kg370.webp"
+  },
+  {
+    "id": "202",
+    "code": "1128",
+    "name": "Jöleberry",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-joleberry948.webp"
+  },
+  {
+    "id": "203",
+    "code": "1125",
+    "name": "Jelirop",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jelirop-kg591.webp"
+  },
+  {
+    "id": "204",
+    "code": "6033",
+    "name": "Kahve Kreması",
+    "category": "Kahve",
+    "imageUrl": "/products/big-kahve-kremasi-kg712.webp"
+  },
+  {
+    "id": "205",
+    "code": "7081",
+    "name": "Draje Badem renkli",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-cikolatali-badem-draje-kg343.webp"
+  },
+  {
+    "id": "206",
+    "code": "7071",
+    "name": "Draje çakıltaşı",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cakiltasi-kg818.webp"
+  },
+  {
+    "id": "207",
+    "code": "7041",
+    "name": "Draje Bonibon",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-bonibon-kg564.webp"
+  },
+  {
+    "id": "208",
+    "code": "7214",
+    "name": "Draje Çikolata Rengarenk",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-draje-cikolata-rengarenk205.webp"
+  },
+  {
+    "id": "215",
+    "code": "7056",
+    "name": "Hurma Ezmesi Fıstıklı",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-hurma-ezmesi-fistikli-kg453.jpg"
+  },
+  {
+    "id": "217",
+    "code": "4004",
+    "name": "Cevizli Sucuk Kelebek",
+    "category": "Pestil ve Sucuk",
+    "imageUrl": "/products/kelebek-cevizli-sucuk-f8a715.jpg"
+  },
+  {
+    "id": "218",
+    "code": "2136",
+    "name": "Kabak Karbeyaz",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/kabak-karbeyaz.webp"
+  },
+  {
+    "id": "219",
+    "code": "8223",
+    "name": "Kaju Fırından",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/big-kaju-firindan-kg555-1.jpg"
+  },
+  {
+    "id": "220",
+    "code": "2082",
+    "name": "Kokteyl Naturel",
+    "category": "Kuruyemiş",
+    "imageUrl": "/products/kokteyl-naturel-2162-karisik-cerez-halktan-8657-21-B.jpg"
+  },
+  {
+    "id": "221",
+    "code": "7013",
+    "name": "Draje Çikolata Fildişi",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-fildisi-cikolatali-findik-draje-kg528.jpg"
+  },
+  {
+    "id": "222",
+    "code": "7017",
+    "name": "Draje Çikolata Bitter",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-bitter-cikolatali-findik-draje-kg701.jpg"
+  },
+  {
+    "id": "223",
+    "code": "1002",
+    "name": "Tropi Frutti Yumuşak Şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-tropifrutti-karisik-yumusak-sekerleme464-1.jpg"
+  },
+  {
+    "id": "224",
+    "code": "1025",
+    "name": "Jelly Ekşi Mix",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jelly-eksi-mix-1.jpg"
+  },
+  {
+    "id": "225",
+    "code": "7121",
+    "name": "Toptop Sakız",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/toptop-sakiz-2270-toptop-seker-halktan-8588-22-B.jpg"
+  },
+  {
+    "id": "226",
+    "code": "1001",
+    "name": "Softbons Yumuşak Şeker",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-softbons-yumusak-seker-kg456.jpg"
+  },
+  {
+    "id": "227",
+    "code": "7083",
+    "name": "Draje Kaju",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-spesiyal-kajulu-draje-kg618.jpg"
+  },
+  {
+    "id": "228",
+    "code": "7014",
+    "name": "Draje Portakal Bitter",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/portakal-draje.jpg"
+  },
+  {
+    "id": "229",
+    "code": "7033",
+    "name": "Roll in Love Mix",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/roll-in-love-mix.jpg"
+  },
+  {
+    "id": "230",
+    "code": "7088",
+    "name": "Draje Biskrem",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/small-draje-biskrem906.jpg"
+  },
+  {
+    "id": "231",
+    "code": "7215",
+    "name": "Mini Kornet",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/mini-kornet.webp"
+  },
+  {
+    "id": "232",
+    "code": "7026",
+    "name": "Fındıklı Top Gofret",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/findikli-top-gofret.avif"
+  },
+  {
+    "id": "233",
+    "code": "7057",
+    "name": "Altın Para",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-altin-para-kg20.jpg"
+  },
+  {
+    "id": "234",
+    "code": "7025",
+    "name": "Choco Wafer",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/chocowafer.jpg"
+  },
+  {
+    "id": "235",
+    "code": "1122",
+    "name": "Jellycik",
+    "category": "Sakız ve Şekerlemeler",
+    "imageUrl": "/products/big-jellycik-kg284.jpg"
+  },
+  {
+    "id": "236",
+    "code": "3002",
+    "name": "Lokum Sultan Çilekli Duble",
+    "category": "Lokum",
+    "imageUrl": "/products/toz-fistikli-cilekli-sultan-lokumu.webp"
+  },
+  {
+    "id": "237",
+    "code": "4061",
+    "name": "Kuru Meyve Tropik Mix",
+    "category": "Kuru Meyve",
+    "imageUrl": "/products/big-kurumeyve-tropik-mix-574-1.jpg"
+  },
+  {
+    "id": "238",
+    "code": "7084",
+    "name": "Draje Bisküvit",
+    "category": "Çikolata ve Kaplamalı Ürünler",
+    "imageUrl": "/products/big-biskuvi-draje-kg650.jpg"
+  },
+  {
+    "id": "239",
+    "code": "2020",
+    "name": "Şehzade Yer Fıstıklı",
+    "category": "Lokum",
+    "imageUrl": "/products/big-lokum-sehzade-kg539.jpg"
+  },
+  {
+    "id": "240",
+    "code": "2086",
+    "name": "Kokteyl Premium",
+    "category": "Kuruyemiş",
+    "imageUrl": "assets/products/kokteyl-ekstra-luks-2184-karisik-cerez-halktan-8790-21-O.jpg"
+  }
+]
